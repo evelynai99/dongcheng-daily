@@ -32,6 +32,22 @@ const procurement = [
   ["密云", "官方入口", "政府采购、工程招标与结果公告每日监测", "动态更新", "https://www.bjmy.gov.cn/zwgk/"],
 ];
 
+const comparableGdp = [
+  ["1", "东城", "3,950.7亿元", "+4.5%", "2026.04.17", "https://www.bjdch.gov.cn/mldc/dcgk/202304/t20230405_2975706.html"],
+  ["2", "石景山", "1,379.4亿元", "+6.5%", "2026.04.14", "https://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/2023/sjkfzl/sjtj/gbnj/202604/P020260414533973129333.pdf"],
+  ["3", "房山", "927.7亿元", "+0.1%", "2026.04.16", "https://www.bjfsh.gov.cn/zwgk/qtjj/ywdt_2260/bmdt_2261/tjdc_2280/tjgb_2281/202604/P020260416506062786538.pdf"],
+  ["—", "昌平", "待官方值", "—", "待发布", "https://www.bjchp.gov.cn/"],
+  ["4", "密云", "475.0亿元", "+5.5%", "2026.06.11", "https://www.bjmy.gov.cn/zwgk/zfxxgk/fdzdgknr/ghxx/fzgh/202606/P020260611535263755544.pdf"]
+];
+
+const latestGdp = [
+  ["东城", "3,950.7亿元", "2025全年", "2026.04.17", "尚未检索到2026上半年区级GDP官方值", "https://www.bjdch.gov.cn/mldc/dcgk/202304/t20230405_2975706.html"],
+  ["石景山", "官方表已发布", "2026上半年", "2026.07.23", "等待从区级进度表摘录数值", "https://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/2023/sjkfzl/sjtj/jdsj/"],
+  ["房山", "927.7亿元", "2025全年", "2026.04.16", "上半年经济运行稿未披露GDP总量", "https://www.bjfsh.gov.cn/zwgk/qtjj/ywdt_2260/bmdt_2261/tjdc_2280/tjgb_2281/202604/P020260416506062786538.pdf"],
+  ["昌平", "待官方发布", "—", "—", "未取得可核验的2026季度GDP值", "https://www.bjchp.gov.cn/"],
+  ["密云", "官方附件已发布", "2026上半年", "2026.07.28", "附件数值待结构化摘录", "https://www.bjmy.gov.cn/zwgk/zfxxgk/fdzdgknr/tjxx/tjsj/202607/t20260728_549116.html"]
+];
+
 export default function Home() {
   return <main>
     <header className="topbar">
@@ -56,6 +72,19 @@ export default function Home() {
         <article className="summary"><label>景气参照</label><strong>49.2%</strong><p>2026年7月全国制造业PMI。东城等五区均未单独发布官方PMI。</p><a href="https://www.stats.gov.cn/sj/zxfbhjd/202607/t20260731_1964253.html" target="_blank">国家统计局 ↗</a></article>
         <article className="summary"><label>今日判断</label><strong>消费分化</strong><p>东城、石景山保持增长；房山仍处调整期。昌平、密云等待同口径数值补齐。</p></article>
         <article className="summary"><label>信息完整度</label><strong>3 / 5</strong><p>三个区已有可核验的2026上半年消费数据；空缺项不会用估算填充。</p></article>
+      </div>
+
+      <div className="gdp-split">
+        <article className="gdp-board">
+          <div className="panel-title"><div><h3>最新可比统计期排名</h3><p>仅比较同一统计期；当前采用五区最新共同年度口径</p></div><span className="period-chip">2025全年</span></div>
+          <div className="gdp-head"><span>名次</span><span>区域</span><span>GDP</span><span>同比</span><span>发布日期</span><span>来源</span></div>
+          {comparableGdp.map(r=><div className="gdp-row" key={r[1]}><b>{r[0]}</b><strong>{r[1]}</strong><span>{r[2]}</span><em>{r[3]}</em><small>{r[4]}</small><a href={r[5]} target="_blank">原文 ↗</a></div>)}
+          <div className="rank-status"><b>排名状态：部分排名</b><span>昌平区2025官方总量补齐前，不生成五区完整名次。</span></div>
+        </article>
+        <article className="gdp-board latest">
+          <div className="panel-title"><div><h3>各区最新GDP值</h3><p>允许统计期不同，但不参与横向排名</p></div><span className="period-chip neutral">各区最新</span></div>
+          {latestGdp.map(r=><div className="latest-row" key={r[0]}><div><strong>{r[0]}</strong><span>{r[2]}</span></div><div><b>{r[1]}</b><small>发布：{r[3]}</small></div><p>{r[4]}</p><a href={r[5]} target="_blank">官方 ↗</a></div>)}
+        </article>
       </div>
 
       <div className="table-panel">
