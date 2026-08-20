@@ -17,19 +17,36 @@ const districts = [
 ];
 
 const soe = [
-  ["东城", "城市更新进入项目化推进阶段", "前门东区、磁器口东街区及老旧电梯更新等项目持续形成建设和运营需求。", "https://www.bjdch.gov.cn/"],
-  ["石景山", "区政府与首钢集团深化战略协同", "围绕“两园一河”、未来数字空间及城市更新场景，跟踪区企合作落地。", "https://www.bjsjs.gov.cn/gongkai/zwgkpd/zxgk_ywdt/202606/t20260610_762268_sjs.shtml"],
-  ["房山", "保障房与区域投资协同", "关注北京市保障房中心、燕房投资等主体参与的住房与城市更新项目。", "https://www.bjfsh.gov.cn/zhxw/fsdt/202608/t20260803_40116115.shtml"],
-  ["昌平", "区属国企动态监测中", "聚焦未来科学城、回天地区和文旅资产运营，新增信息须经官方页面核验。", "https://www.bjchp.gov.cn/"],
-  ["密云", "产业与生态价值转化", "跟踪区属平台在生态文旅、乡村振兴和产业园区运营中的公开动态。", "https://www.bjmy.gov.cn/ywdt/rdgz/202603/t20260303_532374.html"]
+  ["东城", "2026.05.19", "东城文旅集团推进文商旅体展融合", "王府井食品商场升级后客流翻倍、销售额同比增长333%，并持续引入首店和亲子消费场景。", "东城区政府", "官方", "https://www.bjdch.gov.cn/ztzl/tzdc/tzdt/zjdt/202605/t20260519_4656938.html"],
+  ["东城", "2026.07", "京诚集团明确年度资产盘活目标", "2026年空置房产盘活率计划提升15%以上，重点导入养老、文创和长租公寓等业态。", "北京日报客户端", "媒体", "https://peking.bjd.com.cn/content/s6a57009ae4b03fa51a817c84.html"],
+  ["石景山", "2026.06.10", "首钢集团与石景山区深化区企协同", "推进“两园一河”、国际会展小镇和未来数字空间创新试验区建设。", "首钢集团官网", "国企官网", "https://www.shougang.com.cn/m1/sgyw/20260610/14627.html"],
+  ["石景山", "2026.08.10", "首钢园服贸会永久会址全面完工", "国际会展小镇建设进入运营和重大活动承载阶段。", "首钢集团官网", "国企官网", "https://www.shougang.com.cn/m1/index.html"],
+  ["房山", "2026.08.03", "房山区与北京保障房中心深化合作", "围绕燕房投资运营、存量资产盘活、保障房和良乡大学城职住平衡推进合作。", "房山区政府", "官方", "https://www.bjfsh.gov.cn/zhxw/fsdt/202608/t20260803_40116115.shtml"],
+  ["房山", "2026年度", "区属平台聚焦燕房组团与城市更新", "政府工作报告提出强化产业承载和城市更新，跟踪区属平台项目化落地。", "房山区政府工作报告", "官方", "https://www.bjfsh.gov.cn/zwgk/zfgzbg/202604/P020260409367928917439.pdf"],
+  ["昌平", "2026.07.22", "上半年国有资本经营预算接受专题审议", "区人大财经委提出盘活资金、资产、资源并支持区属国企健康发展。", "北京市人大", "官方", "https://www.bjrd.gov.cn/xwzx/gqrd/202607/t20260722_4778118.html"],
+  ["昌平", "2026年度", "深化区属国企改革与现代公司治理", "政府工作报告部署完善现代公司治理体系和国企市场化经营机制。", "首都之窗", "官方", "https://www.beijing.gov.cn/zhengce/zhengcefagui/202604/W020260421383231367836.pdf"],
+  ["密云", "2026.08.07", "密云与三家央国企签署战略合作协议", "中国广电、中食控股、国机数科将围绕数字农业、数字化和产业项目开展合作。", "首都之窗", "官方", "https://www.beijing.gov.cn/ywdt/gqrd/202608/t20260807_4813113.html"],
+  ["密云", "2026.03.04", "密云国资系统强化招商引资", "区属国企参加招商实战培训，密云企服公司分享项目对接和服务保障案例。", "密云区国资委", "官方", "https://www.bjmy.gov.cn/ywdt/gzdt/202603/t20260304_532514.html"]
 ];
 
 const procurement = [
-  ["东城", "区国动办", "郊区干线早期人防工程回填项目勘察设计", "约2,878㎡", "https://www.bjdch.gov.cn/zwgk/tzgg/202608/t20260817_4826027.html"],
-  ["石景山", "官方入口", "政府采购与区级通知公告每日监测", "动态更新", "https://www.bjsjs.gov.cn/gongkai/zwgkpd/"],
-  ["房山", "官方入口", "采购公告、成交公告及工程招标每日监测", "动态更新", "https://www.bjfsh.gov.cn/zwgk/"],
-  ["昌平", "官方入口", "政府采购及公共资源交易信息每日监测", "动态更新", "https://www.bjchp.gov.cn/"],
-  ["密云", "官方入口", "政府采购、工程招标与结果公告每日监测", "动态更新", "https://www.bjmy.gov.cn/zwgk/"],
+  ["东城", "2026.08.17", "区国动办", "郊区干线早期人防工程回填项目勘察设计", "约2,878㎡", "东城区政府", "官方", "https://www.bjdch.gov.cn/zwgk/tzgg/202608/t20260817_4826027.html"],
+  ["东城", "2026.08.11", "住宅更新", "东城区8部住宅老旧电梯更新项目", "8部电梯", "采招网", "第三方", "https://110101.bidcenter.com.cn/"],
+  ["石景山", "2026年", "区教委", "黄城根小学石景山分校三期教学设施设备补充", "公开招标", "石景山公共资源平台", "官方", "https://www.bjsjs.gov.cn/sjsggzy/"],
+  ["石景山", "动态", "区级平台", "政府采购及公共资源交易项目持续更新", "官方入口", "石景山公共资源平台", "官方", "https://www.bjsjs.gov.cn/sjsggzy/"],
+  ["房山", "2026.07", "良乡医院", "2026年度医疗设备采购项目第1包和第6包", "1,055万元", "采招网", "第三方", "https://110111.bidcenter.com.cn/"],
+  ["房山", "2026.07.30", "区园林绿化局", "森林防火基础设施建设工程三期监理", "监理招标", "采招网", "第三方", "https://110111.bidcenter.com.cn/"],
+  ["昌平", "2026.07.17", "昌平公路分局", "黄平路健康工程施工", "1,430万元", "北京市交通委", "官方", "https://jtw.beijing.gov.cn/xxgk/ztbxx/202607/t20260717_4769425.html"],
+  ["昌平", "2026.07.22", "区教委", "2026年暑期修缮项目九标段", "334.62万元", "中国政府采购网", "官方", "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202607/t20260722_26983563.htm"],
+  ["密云", "2026.07", "区消防救援支队", "2026年消防装备采购项目意向", "79.6万元", "采招网", "第三方", "https://www.bidcenter.com.cn/zhaobiao/areanew_1110_110228_1/"],
+  ["密云", "2026.05.14", "区水务局", "密云区节水诊断与效果评价项目", "公开招标", "密云区政府", "官方", "https://www.bjmy.gov.cn/zwgk/zfxxgk/fdzdgknr/zfcg/"]
+];
+
+const cityGdp = [
+  [1,"海淀",13691.4],[2,"朝阳",9668.5],[3,"西城",6314.0],[4,"东城",3950.7],
+  [5,"丰台",2592.9],[6,"顺义",2451.9],[7,"昌平",1908.5],[8,"通州",1638.8],
+  [9,"石景山",1379.4],[10,"大兴",1349.3],[11,"房山",927.7],[12,"平谷",605.2],
+  [13,"怀柔",586.5],[14,"密云",475.0],[15,"门头沟",316.3],[16,"延庆",260.9]
 ];
 
 const comparableGdp = [
@@ -74,10 +91,10 @@ export default function Home() {
         <article className="summary"><label>信息完整度</label><strong>3 / 5</strong><p>三个区已有可核验的2026上半年消费数据；空缺项不会用估算填充。</p></article>
       </div>
 
-      <article className="city-rank-board">
-        <div><span>北京市16区GDP排名</span><h3>暂不生成全市排名</h3><p>尚未收集齐北京市16个区在同一统计期、同一核算口径下的官方GDP数据。数据完整后才会排序，避免把一季度、上半年和全年数据混在一起。</p></div>
-        <div className="coverage"><strong>4<small>/16区</small></strong><span>2025全年官方总量<br/>当前已结构化核验</span></div>
-        <div className="legend"><span><i className="comparable"/>可比：同一统计期，可参与排名</span><span><i className="reference"/>仅供参考：各区最新值，不参与排名</span></div>
+      <article className="city-gdp-board">
+        <div className="city-gdp-title"><div><span>北京市16区GDP排名</span><h3>2025全年 · 同一统计期</h3><p>单位：亿元；不含北京经济技术开发区。数据由第三方依据北京市统计局及各区官方发布整理，点击可核验汇总来源。</p></div><a href="https://m.maigoo.com/news/686222.html" target="_blank">来源：买购网整理 ↗</a></div>
+        <div className="city-gdp-grid">{cityGdp.map(r=><div className={["东城","石景山","房山","昌平","密云"].includes(String(r[1]))?"city-gdp-item focus":"city-gdp-item"} key={r[1]}><b>{r[0]}</b><span>{r[1]}区</span><strong>{Number(r[2]).toLocaleString("zh-CN")}</strong></div>)}</div>
+        <div className="city-gdp-note"><span><i className="comparable"/>同口径可比</span><span><i className="business"/>红色标记为业务五区</span><span>来源类型：权威媒体/数据网站整理，重要决策请继续核验各区公报。</span></div>
       </article>
 
       <div className="gdp-split">
@@ -116,12 +133,12 @@ export default function Home() {
 
     <section className="dark-section" id="soe">
       <div className="section-head light"><div><span>04 / SOE WATCH</span><h2>国有企业重要动态</h2></div><p>区属平台、重大合作、投资与资产运营</p></div>
-      <div className="soe-grid">{soe.map(item=><a href={item[3]} target="_blank" key={item[0]}><article><span>{item[0]}区</span><h3>{item[1]}</h3><p>{item[2]}</p><em>官方来源 ↗</em></article></a>)}</div>
+      <div className="soe-grid expanded">{soe.map(item=><a href={item[6]} target="_blank" key={item[0]+item[1]+item[2]}><article><header><span>{item[0]}区</span><time>{item[1]}</time></header><h3>{item[2]}</h3><p>{item[3]}</p><footer><em>{item[4]}</em><b>{item[5]}</b><i>查看来源 ↗</i></footer></article></a>)}</div>
     </section>
 
     <section className="section" id="procurement">
       <div className="section-head"><div><span>05 / PROCUREMENT</span><h2>政府采购与招标雷达</h2></div><p>最新公告与各区官方入口</p></div>
-      <div className="procurement-list">{procurement.map(item=><a href={item[4]} target="_blank" key={item[0]}><article><span>{item[0]}</span><div><small>{item[1]}</small><h3>{item[2]}</h3></div><b>{item[3]}</b><em>查看原文 ↗</em></article></a>)}</div>
+      <div className="procurement-list">{procurement.map(item=><a href={item[7]} target="_blank" key={item[0]+item[1]+item[3]}><article><span>{item[0]}</span><div><small>{item[1]} · {item[2]}</small><h3>{item[3]}</h3><i>{item[5]} · {item[6]}</i></div><b>{item[4]}</b><em>查看来源 ↗</em></article></a>)}</div>
       <div className="official-links"><a href="https://www.ccgp-beijing.gov.cn/" target="_blank">北京市政府采购网 ↗</a><a href="https://ggzyfw.beijing.gov.cn/" target="_blank">北京市公共资源交易服务平台 ↗</a></div>
     </section>
 
