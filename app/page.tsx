@@ -49,6 +49,14 @@ const cityGdp = [
   [13,"怀柔",586.5],[14,"密云",475.0],[15,"门头沟",316.3],[16,"延庆",260.9]
 ];
 
+const sourceDirectory = [
+  ["东城","区政府通知公告","https://www.bjdch.gov.cn/zwgk/tzgg/","区国资国企专题","https://www.bjdch.gov.cn/ztzl/tzdc/tzdt/zjdt/"],
+  ["石景山","区公共资源交易平台","https://www.bjsjs.gov.cn/sjsggzy/","首钢集团新闻中心","https://www.shougang.com.cn/m1/xwzx.html"],
+  ["房山","区政府采购公开","https://www.bjfsh.gov.cn/zwgk/","区政府要闻/国企合作","https://www.bjfsh.gov.cn/zhxw/fsdt/"],
+  ["昌平","区政府门户","https://www.bjchp.gov.cn/","北京市公共资源平台","https://ggzyfw.beijing.gov.cn/"],
+  ["密云","区政府采购","https://www.bjmy.gov.cn/zwgk/zfxxgk/fdzdgknr/zfcg/","区属国企目录","https://www.bjmy.gov.cn/stmy/tzmy/qsgyqy/"]
+];
+
 const comparableGdp = [
   ["1", "东城", "3,950.7亿元", "+4.5%", "2026.04.17", "https://www.bjdch.gov.cn/mldc/dcgk/202304/t20230405_2975706.html"],
   ["2", "石景山", "1,379.4亿元", "+6.5%", "2026.04.14", "https://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/2023/sjkfzl/sjtj/gbnj/202604/P020260414533973129333.pdf"],
@@ -132,14 +140,17 @@ export default function Home() {
     </section>
 
     <section className="dark-section" id="soe">
-      <div className="section-head light"><div><span>04 / SOE WATCH</span><h2>国有企业重要动态</h2></div><p>区属平台、重大合作、投资与资产运营</p></div>
+      <div className="section-head light"><div><span>04 / SOE LEDGER</span><h2>2026国企动态台账</h2></div><p>1月1日至今 · 历史月份持续回溯补录</p></div>
+      <div className="ledger-banner dark"><b>收录范围</b><span>区属国企</span><span>央企/市属国企在区合作</span><span>改革重组</span><span>投资建设</span><span>资产运营</span><span>融资与重大经营事项</span><em>状态：持续补录，当前不可视为穷尽性清单</em></div>
       <div className="soe-grid expanded">{soe.map(item=><a href={item[6]} target="_blank" key={item[0]+item[1]+item[2]}><article><header><span>{item[0]}区</span><time>{item[1]}</time></header><h3>{item[2]}</h3><p>{item[3]}</p><footer><em>{item[4]}</em><b>{item[5]}</b><i>查看来源 ↗</i></footer></article></a>)}</div>
     </section>
 
     <section className="section" id="procurement">
-      <div className="section-head"><div><span>05 / PROCUREMENT</span><h2>政府采购与招标雷达</h2></div><p>最新公告与各区官方入口</p></div>
+      <div className="section-head"><div><span>05 / PROCUREMENT LEDGER</span><h2>2026招采全流程台账</h2></div><p>1月1日至今 · 按项目生命周期持续补录</p></div>
+      <div className="ledger-banner"><b>公告类型</b><span>采购意向</span><span>招标/磋商</span><span>资格预审</span><span>变更/延期</span><span>废标</span><span>中标/成交</span><span>合同公告</span><em>同一项目后续按项目编号串联，避免重复计数</em></div>
       <div className="procurement-list">{procurement.map(item=><a href={item[7]} target="_blank" key={item[0]+item[1]+item[3]}><article><span>{item[0]}</span><div><small>{item[1]} · {item[2]}</small><h3>{item[3]}</h3><i>{item[5]} · {item[6]}</i></div><b>{item[4]}</b><em>查看来源 ↗</em></article></a>)}</div>
       <div className="official-links"><a href="https://www.ccgp-beijing.gov.cn/" target="_blank">北京市政府采购网 ↗</a><a href="https://ggzyfw.beijing.gov.cn/" target="_blank">北京市公共资源交易服务平台 ↗</a></div>
+      <div className="source-directory">{sourceDirectory.map(s=><article key={s[0]}><b>{s[0]}区</b><a href={s[2]} target="_blank">{s[1]} ↗</a><a href={s[4]} target="_blank">{s[3]} ↗</a></article>)}</div>
     </section>
 
     <footer className="site-footer"><div className="brand"><span className="seal">京</span><span>五区经纬<small>BEIJING DISTRICT INTELLIGENCE</small></span></div><p>来源优先级：北京市统计局、各区人民政府、北京市政府采购网、北京市公共资源交易服务平台及官方国资信息。<br/>每条数据保留统计期、发布日期、来源链接和口径说明；“待发布”表示尚未取得可核验官方值。</p><span>© 2026 · 每日 08:30 核验</span></footer>
