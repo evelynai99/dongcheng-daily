@@ -143,6 +143,7 @@ export default function Home() {
       <div className="section-head light"><div><span>04 / SOE LEDGER</span><h2>2026国企动态台账</h2></div><p>1月1日至今 · 历史月份持续回溯补录</p></div>
       <div className="ledger-banner dark"><b>收录范围</b><span>区属国企</span><span>央企/市属国企在区合作</span><span>改革重组</span><span>投资建设</span><span>资产运营</span><span>融资与重大经营事项</span><em>状态：持续补录，当前不可视为穷尽性清单</em></div>
       <div className="soe-grid expanded">{soe.map(item=><a href={item[6]} target="_blank" key={item[0]+item[1]+item[2]}><article><header><span>{item[0]}区</span><time>{item[1]}</time></header><h3>{item[2]}</h3><p>{item[3]}</p><footer><em>{item[4]}</em><b>{item[5]}</b><i>查看来源 ↗</i></footer></article></a>)}</div>
+      <a className="ledger-more dark" href="/soe">查看近90天全部国企动态 →</a>
     </section>
 
     <section className="section" id="procurement">
@@ -151,6 +152,7 @@ export default function Home() {
       <div className="procurement-list">{procurement.map(item=><a href={item[7]} target="_blank" key={item[0]+item[1]+item[3]}><article><span>{item[0]}</span><div><small>{item[1]} · {item[2]}</small><h3>{item[3]}</h3><i>{item[5]} · {item[6]}</i></div><b>{item[4]}</b><em>查看来源 ↗</em></article></a>)}</div>
       <div className="official-links"><a href="https://www.ccgp-beijing.gov.cn/" target="_blank">北京市政府采购网 ↗</a><a href="https://ggzyfw.beijing.gov.cn/" target="_blank">北京市公共资源交易服务平台 ↗</a></div>
       <div className="source-directory">{sourceDirectory.map(s=><article key={s[0]}><b>{s[0]}区</b><a href={s[2]} target="_blank">{s[1]} ↗</a><a href={s[4]} target="_blank">{s[3]} ↗</a></article>)}</div>
+      <a className="ledger-more" href="/procurement">查看近90天全部招采信息 →</a>
     </section>
 
     <footer className="site-footer"><div className="brand"><span className="seal">京</span><span>五区经纬<small>BEIJING DISTRICT INTELLIGENCE</small></span></div><p>来源优先级：北京市统计局、各区人民政府、北京市政府采购网、北京市公共资源交易服务平台及官方国资信息。<br/>每条数据保留统计期、发布日期、来源链接和口径说明；“待发布”表示尚未取得可核验官方值。</p><span>© 2026 · 每日 08:30 核验</span></footer>
