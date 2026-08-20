@@ -1,8 +1,10 @@
 import { and, desc, eq, gte, like } from "drizzle-orm";
 import { getDb } from "../../../db";
 import { soeRecords } from "../../../db/schema";
+import { ensureLedgerSeeded } from "../../../db/seed";
 
 export async function GET(request: Request) {
+  await ensureLedgerSeeded();
   const url = new URL(request.url);
   const district = url.searchParams.get("district");
   const type = url.searchParams.get("type");
