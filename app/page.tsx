@@ -1,18 +1,18 @@
 const districts = [
   {
-    key: "东城", tone: "crimson", gdp: "3,950.7", gdpNote: "2025全年 · +4.5%", rank: "市级统一名次待发布", retail: "678.9亿元", retailNote: "2026上半年 · +5.4%", wholesale: "387.6亿元", wholesaleNote: "2025批零业增加值 · +5.7%", trend: "消费规模全市第3，增速高于全市7.6个百分点", leaders: "孙新军 / 陈献森", people: "3月6日发布马媛等2人任免；持续跟踪委办局领导页", stats: "https://www.bjdch.gov.cn/ywdt/xdcb/202607/P020260728617203216051.pdf", gov: "https://www.bjdch.gov.cn/zwgk/ldjs/", personnel: "https://www.bjdch.gov.cn/zwgk/rsxx/rsrm/index.html"
+    key: "东城", tone: "crimson", gdp: "3,950.7", gdpNote: "2025全年 · +4.5%", rank: "五区已核验顺序第1", retail: "678.9亿元", retailNote: "2026上半年 · +5.4%", wholesale: "387.6亿元", wholesaleNote: "2025批零业增加值 · +5.7%", trend: "消费规模全市第3，增速高于全市7.6个百分点", leaders: "孙新军 / 陈献森", people: "3月6日发布马媛等2人任免；持续跟踪委办局领导页", stats: "https://www.bjdch.gov.cn/ywdt/xdcb/202607/P020260728617203216051.pdf", gov: "https://www.bjdch.gov.cn/zwgk/ldjs/", personnel: "https://www.bjdch.gov.cn/zwgk/rsxx/rsrm/index.html"
   },
   {
-    key: "石景山", tone: "amber", gdp: "1,379.4", gdpNote: "2025全年 · +6.5%", rank: "市级统一名次待发布", retail: "+4.5%", retailNote: "2026上半年 · 区级增速", wholesale: "43.3亿元", wholesaleNote: "2025批零业增加值 · +0.4%", trend: "上半年消费保持增长，首钢园与京西消费场景持续扩容", leaders: "常卫 / 万隆", people: "领导信息按区政府公开页每日比对", stats: "https://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/2023/sjkfzl/zxsj/", gov: "https://www.bjsjs.gov.cn/gongkai/zwgkpd/ldjs_1946/qw_1947/", personnel: "https://www.bjsjs.gov.cn/gongkai/zwgkpd/"
+    key: "石景山", tone: "amber", gdp: "1,379.4", gdpNote: "2025全年 · +6.5%", rank: "五区已核验顺序第2", retail: "+4.5%", retailNote: "2026上半年 · 区级增速", wholesale: "43.3亿元", wholesaleNote: "2025批零业增加值 · +0.4%", trend: "上半年消费保持增长，首钢园与京西消费场景持续扩容", leaders: "常卫 / 万隆", people: "领导信息按区政府公开页每日比对", stats: "https://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/2023/sjkfzl/zxsj/", gov: "https://www.bjsjs.gov.cn/gongkai/zwgkpd/ldjs_1946/qw_1947/", personnel: "https://www.bjsjs.gov.cn/gongkai/zwgkpd/"
   },
   {
-    key: "房山", tone: "green", gdp: "待摘录", gdpNote: "2025公报已发布 · 不以推算替代", rank: "市级统一名次待发布", retail: "117.8亿元", retailNote: "2026上半年 · -4.1%", wholesale: "待官方发布", wholesaleNote: "2026进度口径", trend: "商品零售承压，餐饮收入降幅较窄（-0.7%）", leaders: "阳波 / 底志欣", people: "7月14日发布区委管理干部任前公示", stats: "https://www.bjfsh.gov.cn/zwgk/qtjj/ywdt_2260/bmdt_2261/tjdc_2280/tjxx_2284/202607/t20260724_40115945.shtml", gov: "https://www.bjfsh.gov.cn/zhxw/fsdt/202608/t20260803_40116115.shtml", personnel: "https://www.bjfsh.gov.cn/zwgk/rqgs/202607/t20260714_40115671.shtml"
+    key: "房山", tone: "green", gdp: "927.7", gdpNote: "2025全年 · +0.1%", rank: "五区已核验顺序第3", retail: "117.8亿元", retailNote: "2026上半年 · -4.1%", wholesale: "待官方发布", wholesaleNote: "2026进度口径", trend: "商品零售承压，餐饮收入降幅较窄（-0.7%）", leaders: "阳波 / 底志欣", people: "7月14日发布区委管理干部任前公示", stats: "https://www.bjfsh.gov.cn/zwgk/qtjj/ywdt_2260/bmdt_2261/tjdc_2280/tjxx_2284/202607/t20260724_40115945.shtml", gov: "https://www.bjfsh.gov.cn/zhxw/fsdt/202608/t20260803_40116115.shtml", personnel: "https://www.bjfsh.gov.cn/zwgk/rqgs/202607/t20260714_40115671.shtml"
   },
   {
-    key: "昌平", tone: "blue", gdp: "待发布", gdpNote: "2026最新可比数据待区级公开", rank: "市级统一名次待发布", retail: "待发布", retailNote: "2026上半年官方口径", wholesale: "待发布", wholesaleNote: "批零销售额/增加值分口径跟踪", trend: "重点关注回天商圈、未来科学城与文旅消费", leaders: "以区政府领导页为准", people: "每日比对区政府人事与机构公开栏目", stats: "https://www.bjchp.gov.cn/", gov: "https://www.bjchp.gov.cn/", personnel: "https://www.bjchp.gov.cn/"
+    key: "昌平", tone: "blue", gdp: "待发布", gdpNote: "2025官方总量待核验", rank: "五区内部名次待补齐", retail: "待发布", retailNote: "2026上半年官方口径", wholesale: "待发布", wholesaleNote: "批零销售额/增加值分口径跟踪", trend: "重点关注回天商圈、未来科学城与文旅消费", leaders: "以区政府领导页为准", people: "每日比对区政府人事与机构公开栏目", stats: "https://www.bjchp.gov.cn/", gov: "https://www.bjchp.gov.cn/", personnel: "https://www.bjchp.gov.cn/"
   },
   {
-    key: "密云", tone: "violet", gdp: "475.0", gdpNote: "2025全年 · +5.5%", rank: "市级统一名次待发布", retail: "已发布", retailNote: "2026上半年 · 点击查看官方原表", wholesale: "待发布", wholesaleNote: "2026进度口径", trend: "生态文旅、住宿餐饮与高成长企业是跟踪重点", leaders: "彭利锋 / 于海波", people: "领导信息按区政府公开页每日比对", stats: "https://www.bjmy.gov.cn/zwgk/ztbd/myqsjkfzl/index.html", gov: "https://www.bjmy.gov.cn/zwgk/qld/", personnel: "https://www.bjmy.gov.cn/zwgk/qld/"
+    key: "密云", tone: "violet", gdp: "475.0", gdpNote: "2025全年 · +5.5%", rank: "五区已核验顺序第4", retail: "已发布", retailNote: "2026上半年 · 点击查看官方原表", wholesale: "待发布", wholesaleNote: "2026进度口径", trend: "生态文旅、住宿餐饮与高成长企业是跟踪重点", leaders: "彭利锋 / 于海波", people: "领导信息按区政府公开页每日比对", stats: "https://www.bjmy.gov.cn/zwgk/ztbd/myqsjkfzl/index.html", gov: "https://www.bjmy.gov.cn/zwgk/qld/", personnel: "https://www.bjmy.gov.cn/zwgk/qld/"
   }
 ];
 
@@ -74,27 +74,33 @@ export default function Home() {
         <article className="summary"><label>信息完整度</label><strong>3 / 5</strong><p>三个区已有可核验的2026上半年消费数据；空缺项不会用估算填充。</p></article>
       </div>
 
+      <article className="city-rank-board">
+        <div><span>北京市16区GDP排名</span><h3>暂不生成全市排名</h3><p>尚未收集齐北京市16个区在同一统计期、同一核算口径下的官方GDP数据。数据完整后才会排序，避免把一季度、上半年和全年数据混在一起。</p></div>
+        <div className="coverage"><strong>4<small>/16区</small></strong><span>2025全年官方总量<br/>当前已结构化核验</span></div>
+        <div className="legend"><span><i className="comparable"/>可比：同一统计期，可参与排名</span><span><i className="reference"/>仅供参考：各区最新值，不参与排名</span></div>
+      </article>
+
       <div className="gdp-split">
         <article className="gdp-board">
-          <div className="panel-title"><div><h3>最新可比统计期排名</h3><p>仅比较同一统计期；当前采用五区最新共同年度口径</p></div><span className="period-chip">2025全年</span></div>
+          <div className="panel-title"><div><h3>业务五区同口径对比</h3><p>只比较业务五区，不代表北京市16区全市排名</p></div><span className="period-chip">可比 · 2025全年</span></div>
           <div className="gdp-head"><span>名次</span><span>区域</span><span>GDP</span><span>同比</span><span>发布日期</span><span>来源</span></div>
           {comparableGdp.map(r=><div className="gdp-row" key={r[1]}><b>{r[0]}</b><strong>{r[1]}</strong><span>{r[2]}</span><em>{r[3]}</em><small>{r[4]}</small><a href={r[5]} target="_blank">原文 ↗</a></div>)}
-          <div className="rank-status"><b>排名状态：部分排名</b><span>昌平区2025官方总量补齐前，不生成五区完整名次。</span></div>
+          <div className="rank-status"><b>五区对比状态：4/5</b><span>昌平官方总量补齐前，只展示已核验区的顺序，不称为完整排名。</span></div>
         </article>
         <article className="gdp-board latest">
-          <div className="panel-title"><div><h3>各区最新GDP值</h3><p>允许统计期不同，但不参与横向排名</p></div><span className="period-chip neutral">各区最新</span></div>
+          <div className="panel-title"><div><h3>业务五区各自最新值</h3><p>统计期可以不同，只观察更新进度，不参与排名</p></div><span className="period-chip neutral">仅供参考</span></div>
           {latestGdp.map(r=><div className="latest-row" key={r[0]}><div><strong>{r[0]}</strong><span>{r[2]}</span></div><div><b>{r[1]}</b><small>发布：{r[3]}</small></div><p>{r[4]}</p><a href={r[5]} target="_blank">官方 ↗</a></div>)}
         </article>
       </div>
 
       <div className="table-panel">
-        <div className="panel-title"><div><h3>五区经济对比</h3><p>GDP采用最新已核验年度值；排名须等待全市统一口径，不以媒体估算替代。</p></div><span>单位：亿元 / %</span></div>
+        <div className="panel-title"><div><h3>五区经营指标对比</h3><p>GDP列采用同口径年度值；其余指标保留各自统计期。</p></div><span>单位：亿元 / %</span></div>
         <div className="compare-table">
-          <div className="tr th"><span>区域</span><span>GDP</span><span>全市排名</span><span>2026上半年社零</span><span>批零指标</span><span>官方</span></div>
+          <div className="tr th"><span>区域</span><span>GDP</span><span>五区对比状态</span><span>2026上半年社零</span><span>批零指标</span><span>官方</span></div>
           {districts.map(d=><div className="tr" key={d.key}><span><i className={d.tone}/><b>{d.key}</b></span><span><b>{d.gdp}</b><small>{d.gdpNote}</small></span><span><em>{d.rank}</em></span><span><b>{d.retail}</b><small>{d.retailNote}</small></span><span><b>{d.wholesale}</b><small>{d.wholesaleNote}</small></span><span><a href={d.stats} target="_blank">原文 ↗</a></span></div>)}
         </div>
       </div>
-      <div className="method"><b>口径提示</b><p>“批发零售业增加值”与“批零商品销售额”不是同一指标；表内均保留名称和统计期。GDP全市排名仅在各区同一统计期、同一核算口径齐备后生成。</p></div>
+      <div className="method"><b>口径提示</b><p>“批发零售业增加值”与“批零商品销售额”不是同一指标；表内均保留名称和统计期。北京市16区排名、业务五区对比、各区最新值是三个独立口径，互不混排。</p></div>
     </section>
 
     <section className="district-section" id="districts">
