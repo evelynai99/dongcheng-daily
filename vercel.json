@@ -1,5 +1,5 @@
 {
-  "installCommand": "echo \"Static preview deployment: no install required\"",
+  "installCommand": "pnpm install --frozen-lockfile",
   "buildCommand": "echo \"Publishing local-preview\"",
   "outputDirectory": "local-preview",
   "cleanUrls": true,
