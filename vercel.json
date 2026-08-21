@@ -1,4 +1,5 @@
 {
+  "framework": null,
   "installCommand": "pnpm install --frozen-lockfile",
   "buildCommand": "echo \"Publishing local-preview\"",
   "outputDirectory": "local-preview",
