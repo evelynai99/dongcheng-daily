@@ -34,7 +34,7 @@ jobs:
       - name: Detect changes
         id: diff
         run: |
-          if git diff --quiet -- data/source-monitor.json local-preview/index.html local-preview/soe/index.html local-preview/procurement/index.html; then
+          if git diff --quiet -- data/source-monitor.json data/soe-ledger.json data/procurement-ledger.json local-preview/index.html local-preview/soe/index.html local-preview/procurement/index.html; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -45,6 +45,6 @@ jobs:
         run: |
           git config user.name "government-daily-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -- data/source-monitor.json local-preview/index.html local-preview/soe/index.html local-preview/procurement/index.html
+          git add -- data/source-monitor.json data/soe-ledger.json data/procurement-ledger.json local-preview/index.html local-preview/soe/index.html local-preview/procurement/index.html
           git commit -m "Daily source monitor update"
           git push

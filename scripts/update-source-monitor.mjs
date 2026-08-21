@@ -5,6 +5,26 @@ const monitorPath = new URL("../data/source-monitor.json", import.meta.url);
 const indexPath = new URL("../local-preview/index.html", import.meta.url);
 const soePath = new URL("../local-preview/soe/index.html", import.meta.url);
 const procurementPath = new URL("../local-preview/procurement/index.html", import.meta.url);
+const soeLedgerPath = new URL("../data/soe-ledger.json", import.meta.url);
+const procurementLedgerPath = new URL("../data/procurement-ledger.json", import.meta.url);
+
+const districts = ["东城区", "石景山区", "房山区", "昌平区", "密云区"];
+const districtAliases = {
+  东城: "东城区",
+  石景山: "石景山区",
+  房山: "房山区",
+  昌平: "昌平区",
+  密云: "密云区"
+};
+
+const procurementWords =
+  /采购|招标|投标|中标|成交|磋商|询价|合同|废标|流标|变更|更正|资格预审|采购意向|竞价|遴选|比选/;
+const nonProcurementWords =
+  /招聘|拟聘|病残津贴|停车费|催缴|缴费|认定名单|自行清理|处置公告|人员公示|初审结论|退役大学生士兵/;
+const soeWords =
+  /国企|国资|央企|市属|区属|集团|公司|首钢|保障房|文旅|投资|运营|城建|城投|环卫|园区|产业|合作|签约|资产|城市更新|基础设施/;
+const soeHarvestSourceIds = new Set(["shougang_news", "fangshan_news", "changping_gov"]);
+const fetchedBodies = new Map();
 
 const sourceGroups = [
   {
@@ -188,6 +208,220 @@ function normalizeHtml(html) {
     .slice(0, 500000);
 }
 
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+function decodeEntities(value) {
+  return String(value ?? "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'");
+}
+
+function textOnly(value) {
+  return decodeEntities(String(value ?? "").replace(/<[^>]*>/g, " "))
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function absoluteUrl(href, baseUrl) {
+  try {
+    if (!href || href.startsWith("javascript:") || href.startsWith("#")) return null;
+    return new URL(href, baseUrl).href;
+  } catch {
+    return null;
+  }
+}
+
+function isoDate(value) {
+  const text = String(value ?? "");
+  const match =
+    text.match(/(20\d{2})[-./年](\d{1,2})[-./月](\d{1,2})日?/) ||
+    text.match(/(20\d{2})(\d{2})(\d{2})/);
+  if (!match) return null;
+  const year = Number(match[1]);
+  const month = Number(match[2]);
+  const day = Number(match[3]);
+  if (month < 1 || month > 12 || day < 1 || day > 31) return null;
+  return `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+}
+
+function isRecent(dateText, days = 90) {
+  const parsed = new Date(`${dateText}T00:00:00+08:00`);
+  if (Number.isNaN(parsed.getTime())) return false;
+  const now = new Date();
+  const cutoff = new Date(now.getTime() - days * 24 * 60 * 60 * 1000);
+  return parsed >= cutoff && parsed <= new Date(now.getTime() + 24 * 60 * 60 * 1000);
+}
+
+function normalizeDistrict(source, text) {
+  const haystack = `${source.district || ""} ${text || ""}`;
+  for (const [alias, district] of Object.entries(districtAliases)) {
+    if (haystack.includes(alias)) return district;
+  }
+  return districts.includes(source.district) ? source.district : null;
+}
+
+function sourceTypeFor(source) {
+  const url = source.url;
+  if (/gov\.cn|beijing\.gov\.cn|ccgp|ggzyfw/i.test(url)) return "官方";
+  if (/shougang\.com\.cn/i.test(url)) return "国企官网";
+  return "第三方";
+}
+
+function classifyProcurement(text) {
+  if (/采购意向/.test(text)) return "采购意向";
+  if (/中标|成交/.test(text)) return "中标成交";
+  if (/合同/.test(text)) return "合同公告";
+  if (/变更|更正/.test(text)) return "变更更正";
+  if (/废标|流标/.test(text)) return "废标流标";
+  if (/磋商/.test(text)) return "竞争性磋商";
+  if (/询价/.test(text)) return "询价公告";
+  if (/资格预审/.test(text)) return "资格预审";
+  if (/招标|投标/.test(text)) return "招标公告";
+  return "采购招标";
+}
+
+function classifySoe(text) {
+  if (/签约|战略合作|合作/.test(text)) return "战略合作";
+  if (/资产|盘活|运营/.test(text)) return "资产运营";
+  if (/城市更新|基础设施|园区/.test(text)) return "项目建设";
+  if (/任免|领导|董事|监事/.test(text)) return "人事治理";
+  return "国企动态";
+}
+
+function extractAround(html, index, radius = 260) {
+  return html.slice(Math.max(0, index - radius), Math.min(html.length, index + radius));
+}
+
+function extractLedgerCandidates(source, html, kind) {
+  if (kind === "soe" && !soeHarvestSourceIds.has(source.id)) return [];
+  const candidates = [];
+  const normalizedHtml = normalizeHtml(html);
+  const linkPattern = /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  let match;
+  while ((match = linkPattern.exec(normalizedHtml))) {
+    const url = absoluteUrl(match[1], source.url);
+    const anchorText = textOnly(match[2]);
+    if (!url || !anchorText || anchorText.length < 4) continue;
+    if (/\.(jpg|jpeg|png|gif|css|js|ico|svg)(\?|$)/i.test(url)) continue;
+
+    const context = textOnly(extractAround(normalizedHtml, match.index));
+    const searchable = `${anchorText} ${context} ${url}`;
+    const titleSearchable = `${anchorText} ${url}`;
+    const district = normalizeDistrict(source, searchable);
+    if (!district) continue;
+
+    const date = isoDate(searchable);
+    if (!date || !isRecent(date)) continue;
+
+    if (kind === "procurement" && (!procurementWords.test(titleSearchable) || nonProcurementWords.test(titleSearchable))) continue;
+    if (kind === "soe" && !soeWords.test(titleSearchable)) continue;
+
+    candidates.push({
+      id: sha256(`${kind}:${date}:${district}:${url}:${anchorText}`).slice(0, 16),
+      date,
+      district,
+      title: anchorText.slice(0, 96),
+      summary: source.scope,
+      type: kind === "procurement" ? classifyProcurement(titleSearchable) : classifySoe(titleSearchable),
+      sourceName: source.name,
+      sourceType: sourceTypeFor(source),
+      url,
+      confidence: "auto",
+      capturedAt: new Date().toISOString()
+    });
+  }
+  return candidates;
+}
+
+async function loadLedger(path) {
+  try {
+    return JSON.parse(await readFile(path, "utf8"));
+  } catch {
+    return { updatedAt: null, updatedAtBeijing: null, items: [] };
+  }
+}
+
+function mergeLedgerItems(existingItems, harvestedItems) {
+  const byKey = new Map();
+  const durableExisting = existingItems.filter((item) => item.confidence !== "auto");
+  for (const item of [...durableExisting, ...harvestedItems]) {
+    if (!item?.url || !item?.title || !item?.date) continue;
+    if (!isRecent(item.date)) continue;
+    const key = item.url.replace(/#.*$/, "") || `${item.date}:${item.district}:${item.title}`;
+    const previous = byKey.get(key);
+    byKey.set(key, {
+      ...previous,
+      ...item,
+      confidence: previous?.confidence === "seed" ? "seed" : item.confidence || previous?.confidence || "auto"
+    });
+  }
+  return [...byKey.values()].sort((a, b) => {
+    const byDate = b.date.localeCompare(a.date);
+    if (byDate) return byDate;
+    return String(a.district).localeCompare(String(b.district), "zh-CN");
+  });
+}
+
+async function writeLedger(path, kind, items) {
+  await writeFile(
+    path,
+    `${JSON.stringify(
+      {
+        updatedAt: new Date().toISOString(),
+        updatedAtBeijing: beijingTime(),
+        mode: "seed+near-90-day-list-harvest",
+        kind,
+        districts,
+        note: "每日自动从已配置来源抽取近90天可识别公告；政府网站结构不统一，未识别条目不写成官方值。",
+        items
+      },
+      null,
+      2
+    )}\n`
+  );
+}
+
+function renderLedgerPage({ title, label, heading, description, items, kind }) {
+  const latest = beijingTime();
+  const total = items.length;
+  const officialCount = items.filter((item) => item.sourceType === "官方" || item.sourceType === "国企官网").length;
+  const rows = items
+    .map(
+      (item) =>
+        `<a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer"><article><time>${escapeHtml(
+          item.date
+        )}</time><b>${escapeHtml(item.district)}</b><div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(
+          item.summary || item.sourceName
+        )}</p></div><span>${escapeHtml(item.type)}</span><em>${escapeHtml(item.sourceName)} · ${escapeHtml(
+          item.sourceType
+        )} ↗</em></article></a>`
+    )
+    .join("");
+  const empty = `<article class="ledger-empty"><time>${escapeHtml(
+    latest
+  )}</time><b>五区</b><div><h3>本次未自动识别到新的近90天条目</h3><p>请查看首页“来源变化”和原始来源链接，必要时补充定制解析规则。</p></div><span>待核验</span><em>自动监测</em></article>`;
+
+  return `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escapeHtml(
+    title
+  )}</title><link rel="stylesheet" href="../style.css"><link rel="stylesheet" href="../ledger-pages.css"></head><body><main class="ledger-page"><header><a href="../">← 返回首页</a><span>近90天 · 每日自动补录</span><span>最近核验 ${escapeHtml(
+    latest
+  )} · 自动台账 ${total} 条 · 官方/国企官网 ${officialCount} 条</span></header><section><label>${escapeHtml(
+    label
+  )}</label><h1>${escapeHtml(heading)}</h1><p>${escapeHtml(
+    description
+  )}</p><p class="ledger-note">口径：覆盖东城、石景山、房山、昌平、密云；每日从配置来源抽取近90天可识别条目，保留来源链接。${kind === "procurement" ? "招采包含采购意向、招标/磋商/询价、变更、中标成交、合同、废标流标等。" : "国企动态包含区属国企、央企/市属国企在五区的签约合作、资产运营、项目建设和治理变化等。"} 未能结构化识别的页面不会被当作正式条目。</p></section><div class="ledger-table">${rows || empty}</div></main></body></html>`;
+}
+
 async function loadMonitor() {
   try {
     return JSON.parse(await readFile(monitorPath, "utf8"));
@@ -210,6 +444,7 @@ async function fetchSource(source) {
     });
     const contentType = response.headers.get("content-type") || "";
     const body = await response.text();
+    fetchedBodies.set(source.id, { body, finalUrl: response.url });
     const normalized = normalizeHtml(body);
     return {
       ok: response.ok,
@@ -253,19 +488,50 @@ async function updateIndex(changedSources) {
     /<span>原则 <b>只收录官方口径<\/b><\/span>/,
     `<span>原则 <b>只收录官方口径</b></span><span>自动监测 <b>${summary}</b></span>`
   );
+  html = html.replace(
+    /招采\/国企台账：[^<]+/,
+    "招采/国企台账：每日任务按近90天自动补录可识别条目；未能结构化识别的来源仅作为变化线索。"
+  );
   await writeFile(indexPath, html);
 }
 
-async function updateLedgerPage(fileUrl, changedSources, topicKeyword) {
-  let html = await readFile(fileUrl, "utf8");
-  const latest = beijingTime();
-  const changedCount = changedSources.filter((source) => source.topic.includes(topicKeyword)).length;
-  const status = changedCount > 0 ? `发现 ${changedCount} 个相关来源变化` : "相关来源已核验，未发现页面变化";
-  const badge = `<span>最近核验 ${latest} · ${status}</span>`;
-
-  html = html.replace(/<span>最近核验 .*?<\/span>/g, "");
-  html = html.replace(/<header><a href="\.\.\/">← 返回首页<\/a><span>近90天 · 持续补录<\/span><\/header>/, `<header><a href="../">← 返回首页</a><span>近90天 · 持续补录</span>${badge}</header>`);
-  await writeFile(fileUrl, html);
+if (process.env.LEDGER_RENDER_ONLY === "1") {
+  const procurementLedger = await loadLedger(procurementLedgerPath);
+  const soeLedger = await loadLedger(soeLedgerPath);
+  await writeFile(
+    procurementPath,
+    renderLedgerPage({
+      title: "招采台账",
+      label: "PROCUREMENT LEDGER",
+      heading: "五区政府采购与招标",
+      description: "采购意向、招标磋商、变更、中标成交、合同公告和废标流标。",
+      items: procurementLedger.items || [],
+      kind: "procurement"
+    })
+  );
+  await writeFile(
+    soePath,
+    renderLedgerPage({
+      title: "国企动态台账",
+      label: "SOE LEDGER",
+      heading: "五区国有企业动态",
+      description: "区属国企及央企、市属国企在五区的重大事项。",
+      items: soeLedger.items || [],
+      kind: "soe"
+    })
+  );
+  console.log(
+    JSON.stringify(
+      {
+        mode: "ledger-render-only",
+        procurementItems: procurementLedger.items?.length || 0,
+        soeItems: soeLedger.items?.length || 0
+      },
+      null,
+      2
+    )
+  );
+  process.exit(0);
 }
 
 const monitor = await loadMonitor();
@@ -317,15 +583,53 @@ monitor.summary = {
 
 await writeFile(monitorPath, `${JSON.stringify(monitor, null, 2)}\n`);
 
+const procurementLedger = await loadLedger(procurementLedgerPath);
+const soeLedger = await loadLedger(soeLedgerPath);
+const harvestedProcurement = [];
+const harvestedSoe = [];
+for (const source of allSources) {
+  const fetched = fetchedBodies.get(source.id);
+  if (!fetched?.body) continue;
+  harvestedProcurement.push(...extractLedgerCandidates(source, fetched.body, "procurement"));
+  harvestedSoe.push(...extractLedgerCandidates(source, fetched.body, "soe"));
+}
+
+const procurementItems = mergeLedgerItems(procurementLedger.items || [], harvestedProcurement);
+const soeItems = mergeLedgerItems(soeLedger.items || [], harvestedSoe);
+
+await writeLedger(procurementLedgerPath, "procurement", procurementItems);
+await writeLedger(soeLedgerPath, "soe", soeItems);
 await updateIndex(changed);
-await updateLedgerPage(soePath, changed, "国企");
-await updateLedgerPage(procurementPath, changed, "招采");
+await writeFile(
+  procurementPath,
+  renderLedgerPage({
+    title: "招采台账",
+    label: "PROCUREMENT LEDGER",
+    heading: "五区政府采购与招标",
+    description: "采购意向、招标磋商、变更、中标成交、合同公告和废标流标。",
+    items: procurementItems,
+    kind: "procurement"
+  })
+);
+await writeFile(
+  soePath,
+  renderLedgerPage({
+    title: "国企动态台账",
+    label: "SOE LEDGER",
+    heading: "五区国有企业动态",
+    description: "区属国企及央企、市属国企在五区的重大事项。",
+    items: soeItems,
+    kind: "soe"
+  })
+);
 
 console.log(
   JSON.stringify(
     {
       changed: changed.length,
       failed: failed.length,
+      procurementItems: procurementItems.length,
+      soeItems: soeItems.length,
       changedSourceIds: changed.map((source) => source.id),
       failedSourceIds: failed.map((source) => source.id)
     },

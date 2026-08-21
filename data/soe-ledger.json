@@ -1,0 +1,52 @@
+{
+  "updatedAt": "2026-08-21T15:56:24.115Z",
+  "updatedAtBeijing": "2026.08.21 23:56",
+  "mode": "seed+near-90-day-list-harvest",
+  "kind": "soe",
+  "districts": [
+    "东城区",
+    "石景山区",
+    "房山区",
+    "昌平区",
+    "密云区"
+  ],
+  "note": "每日自动从已配置来源抽取近90天可识别公告；政府网站结构不统一，未识别条目不写成官方值。",
+  "items": [
+    {
+      "id": "soe-miyun-20260807-zyqy",
+      "date": "2026-08-07",
+      "district": "密云区",
+      "title": "与三家央国企签署战略合作",
+      "summary": "数字农业、数字化和产业项目",
+      "type": "战略合作",
+      "sourceName": "首都之窗",
+      "sourceType": "官方",
+      "url": "https://www.beijing.gov.cn/ywdt/gqrd/202608/t20260807_4813113.html",
+      "confidence": "seed"
+    },
+    {
+      "id": "soe-fangshan-20260803-bzf",
+      "date": "2026-08-03",
+      "district": "房山区",
+      "title": "与北京保障房中心深化合作",
+      "summary": "燕房投资和存量资产盘活",
+      "type": "资产运营",
+      "sourceName": "房山区政府",
+      "sourceType": "官方",
+      "url": "https://www.bjfsh.gov.cn/zhxw/fsdt/202608/t20260803_40116115.shtml",
+      "confidence": "seed"
+    },
+    {
+      "id": "soe-shijingshan-20260610-shougang",
+      "date": "2026-06-10",
+      "district": "石景山区",
+      "title": "首钢与石景山区深化区企协同",
+      "summary": "两园一河、会展小镇、数字空间",
+      "type": "区企合作",
+      "sourceName": "首钢集团",
+      "sourceType": "国企官网",
+      "url": "https://www.shougang.com.cn/m1/sgyw/20260610/14627.html",
+      "confidence": "seed"
+    }
+  ]
+}
