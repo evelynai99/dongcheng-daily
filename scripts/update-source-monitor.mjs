@@ -3,6 +3,8 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const monitorPath = new URL("../data/source-monitor.json", import.meta.url);
 const indexPath = new URL("../local-preview/index.html", import.meta.url);
+const soePath = new URL("../local-preview/soe/index.html", import.meta.url);
+const procurementPath = new URL("../local-preview/procurement/index.html", import.meta.url);
 
 const sourceGroups = [
   {
@@ -246,11 +248,24 @@ async function updateIndex(changedSources) {
     .map((item) => `${item.district}：${item.name}`)
     .join("；");
   const summary = changeText || "来源已核验，未发现内容变化";
+  html = html.replace(/<span>自动监测 <b>.*?<\/b><\/span>/g, "");
   html = html.replace(
     /<span>原则 <b>只收录官方口径<\/b><\/span>/,
     `<span>原则 <b>只收录官方口径</b></span><span>自动监测 <b>${summary}</b></span>`
   );
   await writeFile(indexPath, html);
+}
+
+async function updateLedgerPage(fileUrl, changedSources, topicKeyword) {
+  let html = await readFile(fileUrl, "utf8");
+  const latest = beijingTime();
+  const changedCount = changedSources.filter((source) => source.topic.includes(topicKeyword)).length;
+  const status = changedCount > 0 ? `发现 ${changedCount} 个相关来源变化` : "相关来源已核验，未发现页面变化";
+  const badge = `<span>最近核验 ${latest} · ${status}</span>`;
+
+  html = html.replace(/<span>最近核验 .*?<\/span>/g, "");
+  html = html.replace(/<header><a href="\.\.\/">← 返回首页<\/a><span>近90天 · 持续补录<\/span><\/header>/, `<header><a href="../">← 返回首页</a><span>近90天 · 持续补录</span>${badge}</header>`);
+  await writeFile(fileUrl, html);
 }
 
 const monitor = await loadMonitor();
@@ -303,6 +318,8 @@ monitor.summary = {
 await writeFile(monitorPath, `${JSON.stringify(monitor, null, 2)}\n`);
 
 await updateIndex(changed);
+await updateLedgerPage(soePath, changed, "国企");
+await updateLedgerPage(procurementPath, changed, "招采");
 
 console.log(
   JSON.stringify(
