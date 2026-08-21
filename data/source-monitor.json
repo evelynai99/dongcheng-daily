@@ -1,0 +1,6 @@
+{
+  "updatedAt": null,
+  "updatedAtBeijing": null,
+  "policy": "Only publish changed source snapshots. Do not convert inferred or estimated values into official values.",
+  "sources": {}
+}

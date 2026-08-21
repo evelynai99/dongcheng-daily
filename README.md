@@ -92,6 +92,27 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 - `npm test`: build the starter and verify its rendered loading skeleton
 - `npm run db:generate`: generate Drizzle migrations after schema changes
 
+## Daily Data Monitor
+
+The public static site is deployed from `local-preview/`.
+
+`.github/workflows/daily-data-monitor.yml` runs every day at 00:30 UTC
+(08:30 Beijing time). It calls `scripts/update-source-monitor.mjs` to check the
+tracked official and source pages for Beijing, Dongcheng, Shijingshan, Fangshan,
+Changping, and Miyun.
+
+The monitor records source URL, scope notes, status, content hash, check time,
+and change time in `data/source-monitor.json`. It does not convert estimates or
+inferences into official values. If no source content changes, it exits without a
+commit. If tracked source content changes, it updates the monitor snapshot and
+homepage check note, commits the change, and GitHub Pages redeploys on the push.
+
+Manual run:
+
+```bash
+node scripts/update-source-monitor.mjs
+```
+
 ## Learn More
 
 - [vinext Documentation](https://github.com/cloudflare/vinext)
