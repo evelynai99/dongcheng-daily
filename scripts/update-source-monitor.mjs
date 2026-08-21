@@ -302,9 +302,7 @@ monitor.summary = {
 
 await writeFile(monitorPath, `${JSON.stringify(monitor, null, 2)}\n`);
 
-if (changed.length > 0) {
-  await updateIndex(changed);
-}
+await updateIndex(changed);
 
 console.log(
   JSON.stringify(
