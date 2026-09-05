@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-04T04:49:14.489Z",
-  "updatedAtBeijing": "2026.09.04 12:49",
+  "updatedAt": "2026-09-05T04:43:29.259Z",
+  "updatedAtBeijing": "2026.09.05 12:43",
   "mode": "seed+near-90-day-list-harvest",
   "kind": "procurement",
   "districts": [
@@ -13,8 +13,47 @@
   "note": "每日自动从已配置来源抽取近90天可识别公告；政府网站结构不统一，未识别条目不写成官方值。",
   "items": [
     {
-      "id": "34179995b39b40c2",
-      "date": "2026-09-03",
+      "id": "9bb2ce735da3ad39",
+      "date": "2026-09-05",
+      "district": "石景山区",
+      "title": "全区就业工作资金其他就业服务采购项目公开招标公告",
+      "summary": "招标采购入口",
+      "type": "招标公告",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7248.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-09-05T04:43:29.244Z"
+    },
+    {
+      "id": "2ef093d741d77f93",
+      "date": "2026-09-05",
+      "district": "石景山区",
+      "title": "西黄村军科院小区附属用房抗震加固及地下室防水工程项目竞争性磋商公告",
+      "summary": "招标采购入口",
+      "type": "竞争性磋商",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7247.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-09-05T04:43:29.244Z"
+    },
+    {
+      "id": "662e65eff896d61f",
+      "date": "2026-09-04",
+      "district": "东城区",
+      "title": "菖蒲河房产入账价值评估服务项目择优比选招标公告",
+      "summary": "政府采购、招标及公告线索",
+      "type": "招标公告",
+      "sourceName": "东城区通知公告",
+      "sourceType": "官方",
+      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202609/t20260904_4851122.html",
+      "confidence": "auto",
+      "capturedAt": "2026-09-05T04:43:29.241Z"
+    },
+    {
+      "id": "56c265e4539fb10f",
+      "date": "2026-09-04",
       "district": "东城区",
       "title": "王府井地区管委会开展2026年拆违工程择优比选公告",
       "summary": "政府采购、招标及公告线索",
@@ -23,11 +62,11 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202609/t20260903_4849399.html",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.329Z"
+      "capturedAt": "2026-09-05T04:43:29.241Z"
     },
     {
-      "id": "fa8a18441f21d4b1",
-      "date": "2026-09-03",
+      "id": "b0e56f9dd3b168f0",
+      "date": "2026-09-04",
       "district": "东城区",
       "title": "内部比选结果网上公示",
       "summary": "政府采购、招标及公告线索",
@@ -36,24 +75,11 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202609/t20260902_4847915.html",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.330Z"
+      "capturedAt": "2026-09-05T04:43:29.241Z"
     },
     {
-      "id": "b0e4266377e1a809",
-      "date": "2026-09-03",
-      "district": "东城区",
-      "title": "东城区房屋管理局2026年科级及以下退休人员健康体检项目比选公告",
-      "summary": "政府采购、招标及公告线索",
-      "type": "采购招标",
-      "sourceName": "东城区通知公告",
-      "sourceType": "官方",
-      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202609/t20260902_4847687.html",
-      "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.330Z"
-    },
-    {
-      "id": "ed064bc41c3d7ae1",
-      "date": "2026-09-03",
+      "id": "c48dd1e57cba01fe",
+      "date": "2026-09-04",
       "district": "石景山区",
       "title": "(中央体彩)石景山区运动场地进公园项目竞争性磋商公告",
       "summary": "招标采购入口",
@@ -62,7 +88,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7245.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.331Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "be5814aa1c94807b",
@@ -75,7 +101,20 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7243.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.331Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
+    },
+    {
+      "id": "3618502dfadede51",
+      "date": "2026-09-02",
+      "district": "东城区",
+      "title": "东城区房屋管理局2026年科级及以下退休人员健康体检项目比选公告",
+      "summary": "政府采购、招标及公告线索",
+      "type": "采购招标",
+      "sourceName": "东城区通知公告",
+      "sourceType": "官方",
+      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202609/t20260902_4847687.html",
+      "confidence": "auto",
+      "capturedAt": "2026-09-05T04:43:29.241Z"
     },
     {
       "id": "8c0ead49489e2099",
@@ -88,7 +127,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7241.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.331Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "ceb70e29dcb8f33d",
@@ -101,7 +140,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7238.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.331Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "f10d20a7703b760c",
@@ -114,7 +153,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7212.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.332Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "5dc14e533f7b61b7",
@@ -127,76 +166,11 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7236.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.331Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
-      "id": "4613584c3157a5bd",
+      "id": "7f45749d341ee0c8",
       "date": "2026-08-31",
-      "district": "石景山区",
-      "title": "石景山区图书馆总分馆图书采购项目公开招标公告",
-      "summary": "招标采购入口",
-      "type": "招标公告",
-      "sourceName": "石景山区公共资源交易",
-      "sourceType": "官方",
-      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7234.jhtml",
-      "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.331Z"
-    },
-    {
-      "id": "d7ac437e00ba777e",
-      "date": "2026-08-28",
-      "district": "东城区",
-      "title": "东城区郊区干线早期人防工程回填勘察设计项目比选结果公示",
-      "summary": "政府采购、招标及公告线索",
-      "type": "采购招标",
-      "sourceName": "东城区通知公告",
-      "sourceType": "官方",
-      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202608/t20260828_4841621.html",
-      "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.330Z"
-    },
-    {
-      "id": "61814662cd80b92f",
-      "date": "2026-08-28",
-      "district": "东城区",
-      "title": "内部比选结果网上公示",
-      "summary": "政府采购、招标及公告线索",
-      "type": "采购招标",
-      "sourceName": "东城区通知公告",
-      "sourceType": "官方",
-      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202608/t20260828_4841269.html",
-      "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.330Z"
-    },
-    {
-      "id": "2d32c068ff1b5944",
-      "date": "2026-08-28",
-      "district": "东城区",
-      "title": "内部比选结果网上公示",
-      "summary": "政府采购、招标及公告线索",
-      "type": "采购招标",
-      "sourceName": "东城区通知公告",
-      "sourceType": "官方",
-      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202608/t20260828_4841249.html",
-      "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.330Z"
-    },
-    {
-      "id": "2b669a04f999ba47",
-      "date": "2026-08-28",
-      "district": "石景山区",
-      "title": "2025年教育改革发展专项转移支付预算-中小学校办学装备提升项目触控一体机采购项目公开招标公告",
-      "summary": "招标采购入口",
-      "type": "招标公告",
-      "sourceName": "石景山区公共资源交易",
-      "sourceType": "官方",
-      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7232.jhtml",
-      "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.331Z"
-    },
-    {
-      "id": "4a241afc07f5b8ca",
-      "date": "2026-08-28",
       "district": "石景山区",
       "title": "2026年国庆花坛花箱布置项目更正公告",
       "summary": "招标采购入口",
@@ -205,7 +179,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7220.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.331Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "7adfbc794a85cc9d",
@@ -218,7 +192,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7219.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.331Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "463be8089ca9f9e5",
@@ -231,7 +205,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7210.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.331Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "4b6a5f9c521b78f9",
@@ -244,7 +218,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7213.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.332Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "65d4947cfe648d3f",
@@ -257,7 +231,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7191.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.332Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "ee253d3cda7e7bfd",
@@ -270,7 +244,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7163.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.332Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "c23f5dca03fe83c2",
@@ -296,7 +270,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7186.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.332Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "f643714901fe3328",
@@ -309,7 +283,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7148.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.332Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "2d4923e7a6942206",
@@ -322,7 +296,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccj/7093.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.332Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "8ad1a5e26a4f82d3",
@@ -335,7 +309,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzbhxrgs/7083.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.332Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "proc-changping-20260722-xqxx",
@@ -372,7 +346,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7152.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.332Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "4f24c39ea52411bb",
@@ -385,7 +359,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7086.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.332Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "17a157d1751ae8a7",
@@ -398,7 +372,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7111.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.332Z"
+      "capturedAt": "2026-09-05T04:43:29.244Z"
     },
     {
       "id": "82bf870be86f721a",
@@ -411,7 +385,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/htgs/7120.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.332Z"
+      "capturedAt": "2026-09-05T04:43:29.245Z"
     },
     {
       "id": "f2858b19cbf4bb00",
@@ -424,7 +398,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/htgs/6543.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-04T04:49:14.332Z"
+      "capturedAt": "2026-09-05T04:43:29.245Z"
     }
   ]
 }
