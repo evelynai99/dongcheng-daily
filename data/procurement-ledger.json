@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-08T04:55:20.201Z",
-  "updatedAtBeijing": "2026.09.08 12:55",
+  "updatedAt": "2026-09-09T04:55:48.742Z",
+  "updatedAtBeijing": "2026.09.09 12:55",
   "mode": "seed+near-90-day-list-harvest",
   "kind": "procurement",
   "districts": [
@@ -23,7 +23,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202609/t20260904_4851122.html",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.065Z"
+      "capturedAt": "2026-09-09T04:55:48.729Z"
     },
     {
       "id": "37120832b08fe9b3",
@@ -36,7 +36,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202609/t20260903_4849399.html",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.065Z"
+      "capturedAt": "2026-09-09T04:55:48.730Z"
     },
     {
       "id": "44f369dfad67a4f1",
@@ -49,7 +49,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7249.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.067Z"
+      "capturedAt": "2026-09-09T04:55:48.732Z"
     },
     {
       "id": "4ae0709ed7eeea3e",
@@ -62,7 +62,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7248.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.067Z"
+      "capturedAt": "2026-09-09T04:55:48.732Z"
     },
     {
       "id": "2ef093d741d77f93",
@@ -75,7 +75,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7247.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.067Z"
+      "capturedAt": "2026-09-09T04:55:48.732Z"
     },
     {
       "id": "b0e56f9dd3b168f0",
@@ -88,7 +88,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202609/t20260902_4847915.html",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.065Z"
+      "capturedAt": "2026-09-09T04:55:48.730Z"
     },
     {
       "id": "c48dd1e57cba01fe",
@@ -101,7 +101,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7245.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.067Z"
+      "capturedAt": "2026-09-09T04:55:48.732Z"
     },
     {
       "id": "be5814aa1c94807b",
@@ -114,7 +114,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7243.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.067Z"
+      "capturedAt": "2026-09-09T04:55:48.732Z"
     },
     {
       "id": "8c0ead49489e2099",
@@ -127,7 +127,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7241.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.067Z"
+      "capturedAt": "2026-09-09T04:55:48.732Z"
     },
     {
       "id": "ceb70e29dcb8f33d",
@@ -140,7 +140,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7238.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.067Z"
+      "capturedAt": "2026-09-09T04:55:48.732Z"
     },
     {
       "id": "f10d20a7703b760c",
@@ -153,7 +153,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7212.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.068Z"
+      "capturedAt": "2026-09-09T04:55:48.733Z"
     },
     {
       "id": "7f45749d341ee0c8",
@@ -166,7 +166,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7220.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.067Z"
+      "capturedAt": "2026-09-09T04:55:48.732Z"
     },
     {
       "id": "7adfbc794a85cc9d",
@@ -179,7 +179,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7219.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.067Z"
+      "capturedAt": "2026-09-09T04:55:48.732Z"
     },
     {
       "id": "463be8089ca9f9e5",
@@ -192,7 +192,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7210.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.067Z"
+      "capturedAt": "2026-09-09T04:55:48.732Z"
     },
     {
       "id": "4b6a5f9c521b78f9",
@@ -205,7 +205,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7213.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.068Z"
+      "capturedAt": "2026-09-09T04:55:48.733Z"
     },
     {
       "id": "65d4947cfe648d3f",
@@ -218,7 +218,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7191.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.068Z"
+      "capturedAt": "2026-09-09T04:55:48.733Z"
     },
     {
       "id": "ee253d3cda7e7bfd",
@@ -231,7 +231,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7163.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.067Z"
+      "capturedAt": "2026-09-09T04:55:48.732Z"
     },
     {
       "id": "c23f5dca03fe83c2",
@@ -257,7 +257,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7186.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.068Z"
+      "capturedAt": "2026-09-09T04:55:48.733Z"
     },
     {
       "id": "f643714901fe3328",
@@ -270,7 +270,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7148.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.068Z"
+      "capturedAt": "2026-09-09T04:55:48.733Z"
     },
     {
       "id": "2d4923e7a6942206",
@@ -283,7 +283,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccj/7093.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.067Z"
+      "capturedAt": "2026-09-09T04:55:48.732Z"
     },
     {
       "id": "8ad1a5e26a4f82d3",
@@ -296,7 +296,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzbhxrgs/7083.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.068Z"
+      "capturedAt": "2026-09-09T04:55:48.733Z"
     },
     {
       "id": "proc-changping-20260722-xqxx",
@@ -333,7 +333,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7152.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.067Z"
+      "capturedAt": "2026-09-09T04:55:48.732Z"
     },
     {
       "id": "4f24c39ea52411bb",
@@ -346,7 +346,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7086.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.067Z"
+      "capturedAt": "2026-09-09T04:55:48.732Z"
     },
     {
       "id": "17a157d1751ae8a7",
@@ -359,7 +359,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7111.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-09-08T04:55:20.068Z"
+      "capturedAt": "2026-09-09T04:55:48.733Z"
     }
   ]
 }
