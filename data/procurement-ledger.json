@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-10T04:58:06.200Z",
-  "updatedAtBeijing": "2026.09.10 12:58",
+  "updatedAt": "2026-09-11T04:55:48.561Z",
+  "updatedAtBeijing": "2026.09.11 12:55",
   "mode": "seed+near-90-day-list-harvest",
   "kind": "procurement",
   "districts": [
@@ -13,6 +13,19 @@
   "note": "每日自动从已配置来源抽取近90天可识别公告；政府网站结构不统一，未识别条目不写成官方值。",
   "items": [
     {
+      "id": "f0081d3d868a3cf6",
+      "date": "2026-09-11",
+      "district": "东城区",
+      "title": "关于征集东城区推动产业高质量发展数字经济与未来产业京外调研培训服务项目的比选通知",
+      "summary": "政府采购、招标及公告线索",
+      "type": "采购招标",
+      "sourceName": "东城区通知公告",
+      "sourceType": "官方",
+      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202609/t20260910_4857903.html",
+      "confidence": "auto",
+      "capturedAt": "2026-09-11T04:55:48.548Z"
+    },
+    {
       "id": "7887c922c84ed040",
       "date": "2026-09-07",
       "district": "东城区",
@@ -23,7 +36,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202609/t20260904_4851122.html",
       "confidence": "auto",
-      "capturedAt": "2026-09-10T04:58:06.192Z"
+      "capturedAt": "2026-09-11T04:55:48.548Z"
     },
     {
       "id": "37120832b08fe9b3",
@@ -36,7 +49,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202609/t20260903_4849399.html",
       "confidence": "auto",
-      "capturedAt": "2026-09-10T04:58:06.193Z"
+      "capturedAt": "2026-09-11T04:55:48.548Z"
     },
     {
       "id": "b0e56f9dd3b168f0",
@@ -49,7 +62,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202609/t20260902_4847915.html",
       "confidence": "auto",
-      "capturedAt": "2026-09-10T04:58:06.193Z"
+      "capturedAt": "2026-09-11T04:55:48.548Z"
     },
     {
       "id": "c23f5dca03fe83c2",
