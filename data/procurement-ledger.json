@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-10T06:05:59.745Z",
-  "updatedAtBeijing": "2026.10.10 14:05",
+  "updatedAt": "2026-10-11T06:03:49.933Z",
+  "updatedAtBeijing": "2026.10.11 14:03",
   "mode": "seed+near-90-day-list-harvest",
   "kind": "procurement",
   "districts": [
@@ -13,8 +13,21 @@
   "note": "每日自动从已配置来源抽取近90天可识别公告；政府网站结构不统一，未识别条目不写成官方值。",
   "items": [
     {
-      "id": "b0a9e00547eaa1f7",
-      "date": "2026-10-09",
+      "id": "b5de72d77c7e41b8",
+      "date": "2026-10-10",
+      "district": "东城区",
+      "title": "内部比选结果网上公示",
+      "summary": "政府采购、招标及公告线索",
+      "type": "采购招标",
+      "sourceName": "东城区通知公告",
+      "sourceType": "官方",
+      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202610/t20261010_4896287.html",
+      "confidence": "auto",
+      "capturedAt": "2026-10-11T06:03:49.923Z"
+    },
+    {
+      "id": "59eda52c57412220",
+      "date": "2026-10-10",
       "district": "东城区",
       "title": "内部比选公告",
       "summary": "政府采购、招标及公告线索",
@@ -23,7 +36,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202610/t20261009_4894222.html",
       "confidence": "auto",
-      "capturedAt": "2026-10-10T06:05:59.732Z"
+      "capturedAt": "2026-10-11T06:03:49.923Z"
     },
     {
       "id": "2abb558bce052efc",
@@ -36,7 +49,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202609/t20260930_4887815.html",
       "confidence": "auto",
-      "capturedAt": "2026-10-10T06:05:59.732Z"
+      "capturedAt": "2026-10-11T06:03:49.923Z"
     },
     {
       "id": "e1a2ecdce2900154",
@@ -49,7 +62,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202609/t20260930_4887758.html",
       "confidence": "auto",
-      "capturedAt": "2026-10-10T06:05:59.732Z"
+      "capturedAt": "2026-10-11T06:03:49.923Z"
     },
     {
       "id": "da7739d4a4415d78",
@@ -62,7 +75,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202609/t20260930_4886779.html",
       "confidence": "auto",
-      "capturedAt": "2026-10-10T06:05:59.732Z"
+      "capturedAt": "2026-10-11T06:03:49.924Z"
     },
     {
       "id": "c23f5dca03fe83c2",
