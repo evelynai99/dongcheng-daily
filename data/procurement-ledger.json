@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-19T04:58:45.218Z",
-  "updatedAtBeijing": "2026.10.19 12:58",
+  "updatedAt": "2026-10-20T05:03:35.342Z",
+  "updatedAtBeijing": "2026.10.20 13:03",
   "mode": "seed+near-90-day-list-harvest",
   "kind": "procurement",
   "districts": [
@@ -24,18 +24,6 @@
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202608/t20260817_4826027.html",
       "confidence": "seed",
       "capturedAt": "2026-08-26T02:07:17.143Z"
-    },
-    {
-      "id": "proc-changping-20260722-xqxx",
-      "date": "2026-07-22",
-      "district": "昌平区",
-      "title": "教委暑期修缮项目九标段",
-      "summary": "334.62万元",
-      "type": "竞争性磋商",
-      "sourceName": "中国政府采购网",
-      "sourceType": "官方",
-      "url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202607/t20260722_26983563.htm",
-      "confidence": "seed"
     }
   ]
 }
