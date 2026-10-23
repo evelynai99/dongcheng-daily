@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-22T05:06:51.707Z",
-  "updatedAtBeijing": "2026.10.22 13:06",
+  "updatedAt": "2026-10-23T05:06:14.649Z",
+  "updatedAtBeijing": "2026.10.23 13:06",
   "mode": "seed+near-90-day-list-harvest",
   "kind": "procurement",
   "districts": [
@@ -12,45 +12,6 @@
   ],
   "note": "每日自动从已配置来源抽取近90天可识别公告；政府网站结构不统一，未识别条目不写成官方值。",
   "items": [
-    {
-      "id": "80f8ea93eb84ea4e",
-      "date": "2026-10-22",
-      "district": "东城区",
-      "title": "内部比选结果网上公示",
-      "summary": "政府采购、招标及公告线索",
-      "type": "采购招标",
-      "sourceName": "东城区通知公告",
-      "sourceType": "官方",
-      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202610/t20261022_4914368.html",
-      "confidence": "auto",
-      "capturedAt": "2026-10-22T05:06:51.608Z"
-    },
-    {
-      "id": "d2073dbfb997e7db",
-      "date": "2026-10-22",
-      "district": "东城区",
-      "title": "内部比选结果网上公示",
-      "summary": "政府采购、招标及公告线索",
-      "type": "采购招标",
-      "sourceName": "东城区通知公告",
-      "sourceType": "官方",
-      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202610/t20261022_4914370.html",
-      "confidence": "auto",
-      "capturedAt": "2026-10-22T05:06:51.609Z"
-    },
-    {
-      "id": "5a0292092d5524ef",
-      "date": "2026-10-22",
-      "district": "东城区",
-      "title": "内部比选公告",
-      "summary": "政府采购、招标及公告线索",
-      "type": "采购招标",
-      "sourceName": "东城区通知公告",
-      "sourceType": "官方",
-      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202610/t20261022_4914367.html",
-      "confidence": "auto",
-      "capturedAt": "2026-10-22T05:06:51.609Z"
-    },
     {
       "id": "c23f5dca03fe83c2",
       "date": "2026-08-18",
