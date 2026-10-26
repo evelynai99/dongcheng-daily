@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-25T05:00:12.792Z",
-  "updatedAtBeijing": "2026.10.25 13:00",
+  "updatedAt": "2026-10-26T05:04:23.906Z",
+  "updatedAtBeijing": "2026.10.26 13:04",
   "mode": "seed+near-90-day-list-harvest",
   "kind": "procurement",
   "districts": [
@@ -13,8 +13,8 @@
   "note": "每日自动从已配置来源抽取近90天可识别公告；政府网站结构不统一，未识别条目不写成官方值。",
   "items": [
     {
-      "id": "d7c267c73fb492dc",
-      "date": "2026-10-23",
+      "id": "b21ab8fbe4945275",
+      "date": "2026-10-26",
       "district": "东城区",
       "title": "内部比选公告",
       "summary": "政府采购、招标及公告线索",
@@ -23,11 +23,11 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202610/t20261023_4916269.html",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.684Z"
+      "capturedAt": "2026-10-26T05:04:23.892Z"
     },
     {
-      "id": "3637cd78c33578f5",
-      "date": "2026-10-23",
+      "id": "7be1645f23fe6576",
+      "date": "2026-10-26",
       "district": "东城区",
       "title": "内部比选结果网上公示",
       "summary": "政府采购、招标及公告线索",
@@ -36,7 +36,46 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202610/t20261023_4916261.html",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.684Z"
+      "capturedAt": "2026-10-26T05:04:23.892Z"
+    },
+    {
+      "id": "e47b1643d97b7765",
+      "date": "2026-10-26",
+      "district": "石景山区",
+      "title": "公用经费二物业管理服务采购项目公开招标公告",
+      "summary": "招标采购入口",
+      "type": "招标公告",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7302.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-10-26T05:04:23.894Z"
+    },
+    {
+      "id": "2023122813c1c762",
+      "date": "2026-10-26",
+      "district": "石景山区",
+      "title": "区机关运维费用保安服务采购项目公开招标公告",
+      "summary": "招标采购入口",
+      "type": "招标公告",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7300.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-10-26T05:04:23.894Z"
+    },
+    {
+      "id": "36e391ad448defaa",
+      "date": "2026-10-26",
+      "district": "石景山区",
+      "title": "区机关运维费用物业管理服务采购项目公开招标公告",
+      "summary": "招标采购入口",
+      "type": "招标公告",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7298.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "a596c796d539cf76",
@@ -49,33 +88,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202610/t20261023_4915672.html",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.684Z"
-    },
-    {
-      "id": "6c9b14ad63d50858",
-      "date": "2026-10-23",
-      "district": "东城区",
-      "title": "内部比选结果网上公示",
-      "summary": "政府采购、招标及公告线索",
-      "type": "采购招标",
-      "sourceName": "东城区通知公告",
-      "sourceType": "官方",
-      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202610/t20261022_4914368.html",
-      "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.685Z"
-    },
-    {
-      "id": "eed03d7e93c8f892",
-      "date": "2026-10-23",
-      "district": "石景山区",
-      "title": "区机关运维费用物业管理服务采购项目公开招标公告",
-      "summary": "招标采购入口",
-      "type": "招标公告",
-      "sourceName": "石景山区公共资源交易",
-      "sourceType": "官方",
-      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7298.jhtml",
-      "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.892Z"
     },
     {
       "id": "e56730e6f70bd30c",
@@ -88,33 +101,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7296.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
-    },
-    {
-      "id": "d2073dbfb997e7db",
-      "date": "2026-10-22",
-      "district": "东城区",
-      "title": "内部比选结果网上公示",
-      "summary": "政府采购、招标及公告线索",
-      "type": "采购招标",
-      "sourceName": "东城区通知公告",
-      "sourceType": "官方",
-      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202610/t20261022_4914370.html",
-      "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.685Z"
-    },
-    {
-      "id": "5a0292092d5524ef",
-      "date": "2026-10-22",
-      "district": "东城区",
-      "title": "内部比选公告",
-      "summary": "政府采购、招标及公告线索",
-      "type": "采购招标",
-      "sourceName": "东城区通知公告",
-      "sourceType": "官方",
-      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202610/t20261022_4914367.html",
-      "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.685Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "5d3110c9479b1a97",
@@ -127,7 +114,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7294.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "6e8862421a67ab81",
@@ -140,7 +127,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7291.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "6d18886d04111a5d",
@@ -153,37 +140,11 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7290.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
-      "id": "d7b6877d08348c7f",
+      "id": "db206108a9650782",
       "date": "2026-10-19",
-      "district": "石景山区",
-      "title": "北京市公安局石景山分局警务辅助人员2027年劳务派遣服务项目（120人）公开招标公告",
-      "summary": "招标采购入口",
-      "type": "招标公告",
-      "sourceName": "石景山区公共资源交易",
-      "sourceType": "官方",
-      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7287.jhtml",
-      "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
-    },
-    {
-      "id": "6f7561b28fbfe1c5",
-      "date": "2026-10-15",
-      "district": "石景山区",
-      "title": "2026年石景山区裸地治理工程竞争性磋商公告",
-      "summary": "招标采购入口",
-      "type": "竞争性磋商",
-      "sourceName": "石景山区公共资源交易",
-      "sourceType": "官方",
-      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7286.jhtml",
-      "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
-    },
-    {
-      "id": "9f8ab81b56120343",
-      "date": "2026-10-12",
       "district": "石景山区",
       "title": "公共管理综合保险项目更正公告",
       "summary": "招标采购入口",
@@ -192,7 +153,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7281.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "2a7863134454a7f7",
@@ -205,7 +166,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7250.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "df4a611e904d481a",
@@ -218,7 +179,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7274.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "b3c3d82624943d0d",
@@ -231,7 +192,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7273.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "2a53296d8c361216",
@@ -244,7 +205,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7260.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "3d7b6d33c35ebf98",
@@ -257,7 +218,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccj/7264.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "4ba82b65ea662f09",
@@ -270,7 +231,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccj/7177.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "06ac65dc720f4a37",
@@ -283,7 +244,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7258.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "4a2846ed1f62ece6",
@@ -296,7 +257,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7251.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "fea4f95050f023b0",
@@ -309,7 +270,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzbhxrgs/7253.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "c26a86082c5a2fe0",
@@ -322,7 +283,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzbhxrgs/7172.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "c286655498f3dd65",
@@ -335,7 +296,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7240.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "78eacc57478ff61d",
@@ -348,7 +309,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7220.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "23a65c8ad442407b",
@@ -361,7 +322,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzbhxrgs/7256.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "7adfbc794a85cc9d",
@@ -374,7 +335,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7219.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "463be8089ca9f9e5",
@@ -387,7 +348,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7210.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "ee253d3cda7e7bfd",
@@ -400,7 +361,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7163.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
+      "capturedAt": "2026-10-26T05:04:23.894Z"
     },
     {
       "id": "c23f5dca03fe83c2",
@@ -414,19 +375,6 @@
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202608/t20260817_4826027.html",
       "confidence": "seed",
       "capturedAt": "2026-08-26T02:07:17.143Z"
-    },
-    {
-      "id": "2d4923e7a6942206",
-      "date": "2026-07-28",
-      "district": "石景山区",
-      "title": "“两园一河”景观照明提升项目一期首钢园周边景观照明品质提升项目（监理）中标公告",
-      "summary": "招标采购入口",
-      "type": "中标成交",
-      "sourceName": "石景山区公共资源交易",
-      "sourceType": "官方",
-      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccj/7093.jhtml",
-      "confidence": "auto",
-      "capturedAt": "2026-10-25T05:00:12.686Z"
     }
   ]
 }
