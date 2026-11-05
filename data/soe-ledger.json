@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-04T06:46:34.454Z",
-  "updatedAtBeijing": "2026.11.04 14:46",
+  "updatedAt": "2026-11-05T07:06:33.523Z",
+  "updatedAtBeijing": "2026.11.05 15:06",
   "mode": "seed+near-90-day-list-harvest",
   "kind": "soe",
   "districts": [
@@ -11,18 +11,5 @@
     "密云区"
   ],
   "note": "每日自动从已配置来源抽取近90天可识别公告；政府网站结构不统一，未识别条目不写成官方值。",
-  "items": [
-    {
-      "id": "soe-miyun-20260807-zyqy",
-      "date": "2026-08-07",
-      "district": "密云区",
-      "title": "与三家央国企签署战略合作",
-      "summary": "数字农业、数字化和产业项目",
-      "type": "战略合作",
-      "sourceName": "首都之窗",
-      "sourceType": "官方",
-      "url": "https://www.beijing.gov.cn/ywdt/gqrd/202608/t20260807_4813113.html",
-      "confidence": "seed"
-    }
-  ]
+  "items": []
 }
