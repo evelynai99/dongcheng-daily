@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-21T07:29:50.131Z",
-  "updatedAtBeijing": "2026.11.21 15:29",
+  "updatedAt": "2026-11-22T07:10:31.350Z",
+  "updatedAtBeijing": "2026.11.22 15:10",
   "mode": "seed+near-90-day-list-harvest",
   "kind": "procurement",
   "districts": [
@@ -23,7 +23,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261121/5798273.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "97cc7a9487c2f044",
@@ -36,7 +36,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261120/5798127.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "c8ad86d7058d28bb",
@@ -49,7 +49,46 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5797390.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
+    },
+    {
+      "id": "09c08e60926faef0",
+      "date": "2026-11-21",
+      "district": "昌平区",
+      "title": "【通州区】 [S110000A001045067001] 北京市通州区老城平房棚户区改造项目一期土桥东西地块FZX-0306-6037地块R2二类居住用地项目监理中标结果公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261121/5798681.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.326Z"
+    },
+    {
+      "id": "b3abf57087ced9a0",
+      "date": "2026-11-21",
+      "district": "昌平区",
+      "title": "【通州区】 [S110000A001045067002] 北京市通州区老城平房棚户区改造项目一期土桥东西地块FZX-0306-6037地块R2二类居住用地项目中标结果公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261121/5798679.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.326Z"
+    },
+    {
+      "id": "6b3fadca67db1411",
+      "date": "2026-11-21",
+      "district": "昌平区",
+      "title": "【丰台区】 [S110000A001043933004] 梅市口路二期(长兴路-云岗路)道路工程2#标段中标结果公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5797279.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "4c488616e41258fb",
@@ -62,7 +101,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxnccqzbjj/20261121/5798282.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.117Z"
+      "capturedAt": "2026-11-22T07:10:31.329Z"
     },
     {
       "id": "001f3d29d5e69016",
@@ -75,7 +114,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxnccqzbjj/20261121/5798275.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.117Z"
+      "capturedAt": "2026-11-22T07:10:31.330Z"
     },
     {
       "id": "b1f27bed41670fb9",
@@ -88,7 +127,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/bxggqt/20260923/5726220.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.117Z"
+      "capturedAt": "2026-11-22T07:10:31.330Z"
     },
     {
       "id": "33230bc27885d209",
@@ -101,7 +140,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261119/5793754.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "89243cf3fec8c4fc",
@@ -114,7 +153,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbjh/20261120/5796803.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "b415ab67f40dcbb5",
@@ -127,7 +166,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5798121.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "56692bbe67bd1672",
@@ -140,7 +179,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5798120.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "f2f4b3a852f1032f",
@@ -153,7 +192,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5797459.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "cebe2c497d537a09",
@@ -166,7 +205,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5797093.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "b6b9944c64bb803f",
@@ -179,7 +218,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5797092.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "f5a06c11ccb6d3f7",
@@ -192,7 +231,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5797091.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "beace1d83a7c0dc5",
@@ -205,7 +244,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5797090.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "b6cbf9745e167b3f",
@@ -218,7 +257,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5797089.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "87f594d790a262a5",
@@ -231,7 +270,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261121/5798284.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "a6075aa229209461",
@@ -244,7 +283,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261121/5798296.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "54d9e58103d3e8bf",
@@ -257,7 +296,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5797389.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "9aab8d05958fa9e3",
@@ -270,7 +309,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5797260.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "66b1284ea8664918",
@@ -283,7 +322,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5797262.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "9d969dc15456f7a8",
@@ -296,7 +335,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5797233.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "54fde54e7c26176c",
@@ -309,7 +348,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5797232.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "db4515ef983307bd",
@@ -322,7 +361,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5796886.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "55486f75d8bc4bcc",
@@ -335,7 +374,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5796585.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "fd7147c83d922775",
@@ -348,7 +387,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5796550.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "f758fae3d47d4804",
@@ -361,7 +400,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5796551.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "e5fe067d088db75c",
@@ -374,7 +413,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5796498.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "d41cd7c04e9a4520",
@@ -387,7 +426,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5796423.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "848aaa210e0538bb",
@@ -400,20 +439,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5796424.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
-    },
-    {
-      "id": "f6362757fed7aaf9",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【海淀区】 [S110000A001038686016] 海淀区西北旺镇六里屯地块定向安置房项目（西区剩余地块）（1#住宅楼等21项）园林绿化工程中标结果公示",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5796383.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "57d93764c8f18708",
@@ -426,7 +452,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5797048.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "56719b0d0ec99a61",
@@ -439,7 +465,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5796984.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "c8b73f6a301d8c3d",
@@ -452,7 +478,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5796913.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "db01b07faed951db",
@@ -465,7 +491,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5797050.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "3c238e6659a968fe",
@@ -478,7 +504,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5796914.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "496a21e10ab818d5",
@@ -491,7 +517,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5796699.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "185cb03410f574b8",
@@ -504,7 +530,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5796264.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "66cc9f0e1fe659cc",
@@ -517,7 +543,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261119/5795439.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "6267df659d71285c",
@@ -530,7 +556,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797393.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "528af592e655a28b",
@@ -543,7 +569,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797267.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "55491b7d9bf42d78",
@@ -556,7 +582,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797269.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "3d0768d943e32454",
@@ -569,7 +595,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797268.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "cbf882d357f00ef4",
@@ -582,7 +608,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797123.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "3a89a19d2b987d0e",
@@ -595,7 +621,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797121.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "b6f3ff526c9f796d",
@@ -608,7 +634,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5797076.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "1c8c9e25456ecb2e",
@@ -621,7 +647,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796983.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "a1dc0c09feb3638c",
@@ -634,7 +660,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796982.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "c0eb58b6d80ca9a5",
@@ -647,7 +673,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796980.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "75cc43f6d59dd1c8",
@@ -660,7 +686,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796979.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "50cbdefdaea9bc57",
@@ -673,7 +699,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796981.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "ae2db84abb4da161",
@@ -686,7 +712,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796857.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "bb5c651a076321b3",
@@ -699,7 +725,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796697.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "f120b92411173178",
@@ -712,7 +738,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796698.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "5eb5257ddc4b4841",
@@ -725,7 +751,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797314.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.328Z"
     },
     {
       "id": "c2617c7353174d40",
@@ -738,7 +764,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797316.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.328Z"
     },
     {
       "id": "0b5b342f3c13e900",
@@ -751,7 +777,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797317.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.328Z"
     },
     {
       "id": "6c0e3fd0bde10cc3",
@@ -764,7 +790,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797315.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.328Z"
     },
     {
       "id": "e83407a16b58a7d9",
@@ -777,7 +803,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797109.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.328Z"
     },
     {
       "id": "d8392b693066f83c",
@@ -790,7 +816,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797111.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.328Z"
     },
     {
       "id": "2e61379a5b998a60",
@@ -803,7 +829,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797112.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.328Z"
     },
     {
       "id": "2120316737ade7ce",
@@ -816,7 +842,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797108.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.328Z"
     },
     {
       "id": "656f17a4faed02bc",
@@ -829,7 +855,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261120/5796895.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.330Z"
     },
     {
       "id": "b7dc1ada9c83386e",
@@ -842,7 +868,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261119/5794621.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.330Z"
     },
     {
       "id": "8cfa0c702691fa4c",
@@ -855,7 +881,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261119/5794559.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.330Z"
     },
     {
       "id": "7a6d0b612c98552d",
@@ -868,7 +894,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261119/5794576.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "8665225cb14b38f7",
@@ -881,7 +907,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20261026/5761927.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "ebe848c01a6ba877",
@@ -894,7 +920,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261120_4954632.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.111Z"
+      "capturedAt": "2026-11-22T07:10:31.320Z"
     },
     {
       "id": "21b42c3d3a8adcef",
@@ -907,7 +933,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261120_4954621.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.111Z"
+      "capturedAt": "2026-11-22T07:10:31.320Z"
     },
     {
       "id": "2a8db93d52262786",
@@ -920,7 +946,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261120_4954537.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.111Z"
+      "capturedAt": "2026-11-22T07:10:31.320Z"
     },
     {
       "id": "b33ff4c6c8895b9a",
@@ -933,7 +959,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261120_4954519.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.111Z"
+      "capturedAt": "2026-11-22T07:10:31.320Z"
     },
     {
       "id": "f1355cc00dc21c4a",
@@ -946,7 +972,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261120_4954513.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.111Z"
+      "capturedAt": "2026-11-22T07:10:31.320Z"
     },
     {
       "id": "878e5449151ca1ef",
@@ -959,7 +985,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261120_4954373.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.111Z"
+      "capturedAt": "2026-11-22T07:10:31.320Z"
     },
     {
       "id": "0ed525aaa0831c85",
@@ -972,7 +998,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261120_4954284.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.111Z"
+      "capturedAt": "2026-11-22T07:10:31.320Z"
     },
     {
       "id": "165b3193b6d1aacf",
@@ -985,7 +1011,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261119_4952871.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.111Z"
+      "capturedAt": "2026-11-22T07:10:31.320Z"
     },
     {
       "id": "28cb56bc39207046",
@@ -998,7 +1024,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797122.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "0bc3672faecf7191",
@@ -1011,7 +1037,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797125.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "8586df2deadcc074",
@@ -1024,7 +1050,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797124.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "d63a7bf38e9745a2",
@@ -1037,7 +1063,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797107.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.328Z"
     },
     {
       "id": "791ae844a9cee2ba",
@@ -1050,7 +1076,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797115.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.328Z"
     },
     {
       "id": "ebd7d47812a0847c",
@@ -1063,7 +1089,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5797088.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "6bd6cbd6e48c83d9",
@@ -1076,7 +1102,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5797087.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "9c1a315334245a54",
@@ -1089,7 +1115,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261120/5797275.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "29cb206cd5845f4c",
@@ -1102,7 +1128,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261120/5797274.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "353315fc2dfb20cb",
@@ -1115,7 +1141,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261120/5797273.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "e9c2f2b2783b61c0",
@@ -1128,7 +1154,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261120/5796496.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "1aeaea1afe7b7335",
@@ -1141,7 +1167,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5797231.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "0a7cdec93432fac1",
@@ -1154,7 +1180,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5797118.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "e52d7255275ae8b7",
@@ -1167,7 +1193,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261121/5798190.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "bf9bd155d79d8a03",
@@ -1180,7 +1206,72 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796560.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.328Z"
+    },
+    {
+      "id": "429113961836e32b",
+      "date": "2026-11-20",
+      "district": "石景山区",
+      "title": "石景山区政务服务中心食堂日常食材采购及配送服务公开招标公告",
+      "summary": "招标采购入口",
+      "type": "招标公告",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7395.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.321Z"
+    },
+    {
+      "id": "b4d38dc4a445f064",
+      "date": "2026-11-20",
+      "district": "石景山区",
+      "title": "2027年石景山区道路停车电子收费运营管理项目公开招标公告",
+      "summary": "招标采购入口",
+      "type": "招标公告",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7393.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.321Z"
+    },
+    {
+      "id": "91175b3260eaedd5",
+      "date": "2026-11-20",
+      "district": "石景山区",
+      "title": "特定行业类公用经费物业管理服务采购项目公开招标公告",
+      "summary": "招标采购入口",
+      "type": "招标公告",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7391.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.321Z"
+    },
+    {
+      "id": "dc7fe9e90a32fc4f",
+      "date": "2026-11-20",
+      "district": "石景山区",
+      "title": "执法辅助人员费用其他服务采购项目公开招标公告",
+      "summary": "招标采购入口",
+      "type": "招标公告",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7387.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.321Z"
+    },
+    {
+      "id": "c6bf718947bba0c3",
+      "date": "2026-11-20",
+      "district": "石景山区",
+      "title": "北京市石景山医院医疗责任保险服务项目（第二次招标）更正公告",
+      "summary": "招标采购入口",
+      "type": "变更更正",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7355.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
     },
     {
       "id": "71e51d5f1ef4e52c",
@@ -1193,7 +1284,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261120/5796341.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "1df68803cb3c5792",
@@ -1206,33 +1297,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261119/5795199.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
-    },
-    {
-      "id": "737f23960e6db5f7",
-      "date": "2026-11-20",
-      "district": "石景山区",
-      "title": "【石景山区】 [S110000A001044859004] 石景山区供排水管线更新改造一期——超智算人工智能创新示范园供水接入工程（监理）中标结果公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5796328.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
-    },
-    {
-      "id": "400e61b46825f0e5",
-      "date": "2026-11-20",
-      "district": "石景山区",
-      "title": "【西城区】 [S110000A001044869002] 华北电网有限公司枣林前街32号院综合楼改建工程中标结果公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5796267.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "3625d2e9a4f6536b",
@@ -1245,7 +1310,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797040.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "1e9200911b2fabd5",
@@ -1258,7 +1323,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/hyzx/20261119/5794410.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.114Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "27121d35ace817b1",
@@ -1271,7 +1336,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/hyzx/20261106/5777398.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.114Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "27a9cb034fef467c",
@@ -1284,7 +1349,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261119/5793753.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "a25b6f6cbb075ee9",
@@ -1297,7 +1362,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261117/5790020.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "01e3542764d37a68",
@@ -1310,7 +1375,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261119/5794558.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.330Z"
     },
     {
       "id": "03cef1961ccd1333",
@@ -1323,7 +1388,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261118/5792833.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "395401b6796b650b",
@@ -1336,7 +1401,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261119/5794574.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "26e644197bfaf989",
@@ -1349,7 +1414,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261118/5792871.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "200cb2a037f69b6c",
@@ -1362,7 +1427,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261119_4952860.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.111Z"
+      "capturedAt": "2026-11-22T07:10:31.320Z"
     },
     {
       "id": "5896b0662bde253a",
@@ -1375,7 +1440,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261119_4952747.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.111Z"
+      "capturedAt": "2026-11-22T07:10:31.320Z"
     },
     {
       "id": "ff18d3874bc48c3b",
@@ -1388,7 +1453,46 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261119/5795198.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
+    },
+    {
+      "id": "9d76e40b67b1aad5",
+      "date": "2026-11-19",
+      "district": "石景山区",
+      "title": "市容环境管理所选取劳务外包公司公开招标公告",
+      "summary": "招标采购入口",
+      "type": "招标公告",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7386.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.321Z"
+    },
+    {
+      "id": "c5a03fbaa98c01a0",
+      "date": "2026-11-19",
+      "district": "石景山区",
+      "title": "2026年中小学计算机补充更新台式计算机采购项目公开招标公告",
+      "summary": "招标采购入口",
+      "type": "招标公告",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7383.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.321Z"
+    },
+    {
+      "id": "babb0de23d6d8943",
+      "date": "2026-11-19",
+      "district": "石景山区",
+      "title": "特定行业类公用经费保安服务采购项目公开招标公告",
+      "summary": "招标采购入口",
+      "type": "招标公告",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7381.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
     },
     {
       "id": "6fb0f334fff11818",
@@ -1401,7 +1505,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/tzgg/20261109/5780292.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.114Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "30a0eb0ca7d6023a",
@@ -1414,7 +1518,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261118/5792832.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "0473ac0b00ca2441",
@@ -1427,7 +1531,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261117/5790819.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "636c529b68bb345a",
@@ -1440,7 +1544,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261117/5790798.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "e023f8fb2b5811fa",
@@ -1453,7 +1557,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261117/5790916.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "5c50dc817f587e84",
@@ -1466,7 +1570,20 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261117/5790860.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
+    },
+    {
+      "id": "aab4e4f32a6b6ea4",
+      "date": "2026-11-18",
+      "district": "石景山区",
+      "title": "市容环境管理所选取劳务外包公司项目更正公告",
+      "summary": "招标采购入口",
+      "type": "变更更正",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7388.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
     },
     {
       "id": "c8cc45efae1cac9a",
@@ -1479,7 +1596,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261114/5787940.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "01ea7de90125330c",
@@ -1492,7 +1609,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261117/5790788.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "43a17e3ad396fceb",
@@ -1505,7 +1622,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfzbgg/20261113/5786600.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "ecaef2f26af05f09",
@@ -1518,7 +1635,20 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261116/5789283.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
+    },
+    {
+      "id": "21a03fc8310956ad",
+      "date": "2026-11-17",
+      "district": "石景山区",
+      "title": "老山街道玉泉路11号院“消隐促建”综合整治项目中标候选人公示",
+      "summary": "招标采购入口",
+      "type": "中标成交",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzbhxrgs/7331.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
     },
     {
       "id": "0ad4c21e7f98afa6",
@@ -1531,7 +1661,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/tzgg/20261016/5751232.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.114Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "bd038fa3a25298af",
@@ -1544,7 +1674,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261116/5789282.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "d3a418ae340df673",
@@ -1557,7 +1687,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261116/5789279.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "7c353541548733a7",
@@ -1570,7 +1700,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261116/5789278.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "eb4e17570bbd7ead",
@@ -1583,7 +1713,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20261120/5796880.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "ec26687d5627fa35",
@@ -1596,7 +1726,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261114/5787939.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "4385caeef07ed41b",
@@ -1609,7 +1739,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261111/5782588.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "5ac25ac549523ed6",
@@ -1622,7 +1752,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgxqgg/20261030/5767942.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.330Z"
     },
     {
       "id": "a891a2183b3389dc",
@@ -1635,7 +1765,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgxqgg/20260702/5606896.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.330Z"
     },
     {
       "id": "adc43b397bf20164",
@@ -1648,7 +1778,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfzbgg/20261022/5757988.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "5b719c3ada072508",
@@ -1661,7 +1791,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfzbgg/20260806/5658663.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "594d9033d586c319",
@@ -1674,7 +1804,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20261030/5768630.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "76cc1c95051a3d4c",
@@ -1687,7 +1817,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20261022/5757986.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "04cd2e30c1496888",
@@ -1700,7 +1830,20 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261110/5780791.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
+    },
+    {
+      "id": "c0a8bc4318355527",
+      "date": "2026-11-11",
+      "district": "石景山区",
+      "title": "北京市石景山医院医疗责任保险服务项目废标公告",
+      "summary": "招标采购入口",
+      "type": "废标流标",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7282.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
     },
     {
       "id": "e1ee326789cc5a45",
@@ -1713,7 +1856,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261109/5779852.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
       "id": "955c029fe1b89916",
@@ -1726,7 +1869,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5797049.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.116Z"
+      "capturedAt": "2026-11-22T07:10:31.327Z"
     },
     {
       "id": "0fdc6c5cf20f2cde",
@@ -1739,20 +1882,59 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261107/5778722.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
     },
     {
-      "id": "b6c020d902d466ea",
+      "id": "45c1f71d960826c3",
+      "date": "2026-11-09",
+      "district": "石景山区",
+      "title": "衙门口配套中学建设工程配套市政工程（其他工程）更正公告",
+      "summary": "招标采购入口",
+      "type": "变更更正",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7344.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
+    },
+    {
+      "id": "65467b422d8d3342",
+      "date": "2026-11-09",
+      "district": "石景山区",
+      "title": "2026年石景山区中心城区道路健康工程（二标段）中标结果公告",
+      "summary": "招标采购入口",
+      "type": "中标成交",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccj/7265.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
+    },
+    {
+      "id": "8eb631be66bfe635",
       "date": "2026-11-07",
       "district": "房山区",
-      "title": "【丰台区】 [S110000A001043933004] 梅市口路二期(长兴路-云岗路)道路工程2#标段中标结果公告",
+      "title": "【平谷区】 [S110000A001045329001] 2026年平谷区普通公路中修工程（第二批）施工-2026年平谷区普通公路中修工程（第二批）施工(施工)中标结果公告",
       "summary": "工程建设与公共资源交易入口，需按昌平筛选",
       "type": "中标成交",
       "sourceName": "北京市公共资源交易服务平台",
       "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5797279.html",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261121/5798303.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.115Z"
+      "capturedAt": "2026-11-22T07:10:31.326Z"
+    },
+    {
+      "id": "607cd216e1767f73",
+      "date": "2026-11-07",
+      "district": "石景山区",
+      "title": "摩天轮下的童话社区（石景山游乐园周边）重点区域综合治理提升项目更正公告",
+      "summary": "招标采购入口",
+      "type": "变更更正",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7333.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
     },
     {
       "id": "444068f15cdd1235",
@@ -1765,7 +1947,33 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/hyzx/20261013/5744190.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.114Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
+    },
+    {
+      "id": "ebbf0ca42b46f5ef",
+      "date": "2026-11-05",
+      "district": "石景山区",
+      "title": "现有应急避难场所改造提升项目更正公告",
+      "summary": "招标采购入口",
+      "type": "变更更正",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7314.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
+    },
+    {
+      "id": "d7ecd977e0f9dd13",
+      "date": "2026-11-03",
+      "district": "石景山区",
+      "title": "2026年石景山区中心城区道路健康工程（二标段）中标候选人公示",
+      "summary": "招标采购入口",
+      "type": "中标成交",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzbhxrgs/7256.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
     },
     {
       "id": "65e1c67d8aafcb4f",
@@ -1778,7 +1986,20 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20261013/5745184.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
+    },
+    {
+      "id": "5ca4366ab5da8705",
+      "date": "2026-10-29",
+      "district": "石景山区",
+      "title": "老山街道玉泉路11号院“消隐促建”综合整治项目中标公告",
+      "summary": "招标采购入口",
+      "type": "中标成交",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccj/7349.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
     },
     {
       "id": "3035ab8e64fe56bd",
@@ -1791,7 +2012,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20261021/5756337.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "8b4ae59bc66f2b0e",
@@ -1804,7 +2025,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20261016/5750684.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "940c5a81fb74f304",
@@ -1817,7 +2038,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20260930/5735284.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "507e72f9b8ebb292",
@@ -1830,7 +2051,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20261016/5750683.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "0a5302e1402d8823",
@@ -1843,7 +2064,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20261015/5748668.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "eb2ff257f0e558f2",
@@ -1856,7 +2077,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20261014/5747107.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "c1cb67481f1cce63",
@@ -1869,7 +2090,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20260921/5721614.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "469130fb88f93dac",
@@ -1882,7 +2103,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/zxjjktbx/20260529/5552070.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.330Z"
     },
     {
       "id": "986c7a4cfc0826e6",
@@ -1895,7 +2116,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20260920/5720143.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.119Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "b28ab13f4cd89feb",
@@ -1908,7 +2129,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/hyzx/20260924/5727079.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.114Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "d87ff84de0d56d68",
@@ -1921,7 +2142,20 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20260923/5725939.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
+    },
+    {
+      "id": "df4a611e904d481a",
+      "date": "2026-10-10",
+      "district": "石景山区",
+      "title": "全区就业工作资金其他就业服务采购项目（02包：八角街道就业驿站就业公共服务项目）废标（终止）公告",
+      "summary": "招标采购入口",
+      "type": "废标流标",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7274.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
     },
     {
       "id": "9c1dbedeecde5910",
@@ -1934,7 +2168,33 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20260923/5725779.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
+    },
+    {
+      "id": "b3c3d82624943d0d",
+      "date": "2026-09-29",
+      "district": "石景山区",
+      "title": "120院前从业人员补贴经费其他医疗卫生服务采购项目（第二次招标）废标公告",
+      "summary": "招标采购入口",
+      "type": "废标流标",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7273.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
+    },
+    {
+      "id": "2a53296d8c361216",
+      "date": "2026-09-24",
+      "district": "石景山区",
+      "title": "2025年教育改革发展专项转移支付预算-中小学校办学装备提升项目触控一体机采购项目废标（终止）公告",
+      "summary": "招标采购入口",
+      "type": "废标流标",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7260.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
     },
     {
       "id": "bdedd0e200b3353b",
@@ -1947,7 +2207,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/bxggqt/20260923/5726119.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.117Z"
+      "capturedAt": "2026-11-22T07:10:31.330Z"
     },
     {
       "id": "db60fa59336cd793",
@@ -1960,7 +2220,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/bxggqt/20260713/5621392.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.117Z"
+      "capturedAt": "2026-11-22T07:10:31.330Z"
     },
     {
       "id": "97fd0f6ff51f4a63",
@@ -1973,7 +2233,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/bxggktbx/20260518/5534998.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.117Z"
+      "capturedAt": "2026-11-22T07:10:31.330Z"
     },
     {
       "id": "ecf108a2c3c17617",
@@ -1986,7 +2246,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20260922/5723755.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "0896299c1a34c25d",
@@ -1999,7 +2259,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20260916/5714558.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "a1dcfa035b23b85d",
@@ -2012,7 +2272,33 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20260914/5710400.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
+    },
+    {
+      "id": "3d7b6d33c35ebf98",
+      "date": "2026-09-21",
+      "district": "石景山区",
+      "title": "2026年石景山区中心城区道路健康工程（一标段）中标结果公告",
+      "summary": "招标采购入口",
+      "type": "中标成交",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccj/7264.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
+    },
+    {
+      "id": "4ba82b65ea662f09",
+      "date": "2026-09-21",
+      "district": "石景山区",
+      "title": "2026年老楼加装电梯管线拆改移项目中标公告",
+      "summary": "招标采购入口",
+      "type": "中标成交",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccj/7177.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
     },
     {
       "id": "fb64a2930f262733",
@@ -2025,7 +2311,59 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20260911/5706600.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.119Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
+    },
+    {
+      "id": "06ac65dc720f4a37",
+      "date": "2026-09-20",
+      "district": "石景山区",
+      "title": "五里坨精神卫生专科医院新院开办设备购置（行政后勤）临床、医技办公设备采购项目废标公告",
+      "summary": "招标采购入口",
+      "type": "废标流标",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7258.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
+    },
+    {
+      "id": "4a2846ed1f62ece6",
+      "date": "2026-09-18",
+      "district": "石景山区",
+      "title": "无线式火灾自动报警系统采购项目废标（终止）公告",
+      "summary": "招标采购入口",
+      "type": "废标流标",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7251.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
+    },
+    {
+      "id": "fea4f95050f023b0",
+      "date": "2026-09-17",
+      "district": "石景山区",
+      "title": "2026年石景山区中心城区道路健康工程（一标段）中标候选人公示",
+      "summary": "招标采购入口",
+      "type": "中标成交",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzbhxrgs/7253.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
+    },
+    {
+      "id": "c26a86082c5a2fe0",
+      "date": "2026-09-16",
+      "district": "石景山区",
+      "title": "2026年老楼加装电梯管线拆改移项目中标候选人公示",
+      "summary": "招标采购入口",
+      "type": "中标成交",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzbhxrgs/7172.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
     },
     {
       "id": "b14757e858c8ef9b",
@@ -2038,7 +2376,20 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261120/5796966.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.118Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
+    },
+    {
+      "id": "5aad0d9758792629",
+      "date": "2026-09-14",
+      "district": "石景山区",
+      "title": "现有应急避难场所改造提升项目中标候选人公示",
+      "summary": "招标采购入口",
+      "type": "中标成交",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzbhxrgs/7376.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-22T07:10:31.322Z"
     },
     {
       "id": "f9b0b0a6465de238",
@@ -2051,7 +2402,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxqtjygg/20260806/5658915.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.119Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     },
     {
       "id": "5288c32c3f4ec064",
@@ -2064,7 +2415,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/tzgg/20260731/5651736.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.114Z"
+      "capturedAt": "2026-11-22T07:10:31.325Z"
     },
     {
       "id": "e6343f8031006a15",
@@ -2077,7 +2428,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxqtjyxx/20251106/5321798.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-21T07:29:50.119Z"
+      "capturedAt": "2026-11-22T07:10:31.331Z"
     }
   ]
 }
