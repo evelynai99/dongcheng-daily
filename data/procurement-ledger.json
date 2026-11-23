@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-22T07:10:31.350Z",
-  "updatedAtBeijing": "2026.11.22 15:10",
+  "updatedAt": "2026-11-23T07:56:47.028Z",
+  "updatedAtBeijing": "2026.11.23 15:56",
   "mode": "seed+near-90-day-list-harvest",
   "kind": "procurement",
   "districts": [
@@ -13,6 +13,851 @@
   "note": "每日自动从已配置来源抽取近90天可识别公告；政府网站结构不统一，未识别条目不写成官方值。",
   "items": [
     {
+      "id": "c15b1810a78d928f",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【海淀区】 [S110000A001045057005] 中国政法大学校园更新改造项目（一期）-海淀校区5号楼工程项目监理招标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "招标公告",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261123/5798989.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.002Z"
+    },
+    {
+      "id": "3f2ad903d9c0173a",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【密云区】 [S110000A001045546001] 太师屯镇护村坝修复项目(施工)招标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "招标公告",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261123/5798853.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.002Z"
+    },
+    {
+      "id": "c4149d9d487b868c",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【市级】 [S110000A001043020010] 新建西安至安康高速铁路西安东至窑村联络线工程监理招标资格预审公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "资格预审",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5798121.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.002Z"
+    },
+    {
+      "id": "9ad99abc994cf3e2",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【怀柔区】 [S110000A001039299004] 北京市怀柔区妇幼保健院迁址新建工程(医疗综合楼等13项)配电箱（柜）设备采购招标更正公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "变更更正",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261123/5799030.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.002Z"
+    },
+    {
+      "id": "dfcc2018e3a92224",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【顺义区】 [S110000A001045368001] 北京市顺义区首都机场（AMECO职工活动中心）4幢一、二层装修工程施工招标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "招标公告",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261123/5798940.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "c00d6d16db8cca87",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【西城区】 [S110000A001043257012] 第四批央企在京老旧小区综合整治项目（标包三百九十一）（西城区德胜街道）工程总承包（EPC）更正公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "变更更正",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261123/5798921.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "2fcc89e790da3aa0",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【顺义区】 [S110000A001045368001] 北京市顺义区首都机场（AMECO职工活动中心）4幢一、二层装修工程施工招标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "招标公告",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261121/5798284.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "fe5e2a34f39bea90",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【门头沟区】 [S110000A001043183003] 门头沟区王平镇“百千工程”示范片区产业配套基础设施建设工程 中标候选人公示",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261123/5799151.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "77e1b4bfd23fe0a6",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【市级】 [S110000A001044804002] 大兴国际旅游度假区综合治理提升项目（设计）中标候选人公示",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261123/5799058.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "061410a2db33a316",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【市级】 [S110000A001041145017] 北京轨道交通19号线二期工程（北延及北延支线）造价咨询服务06合同段（土建组）中标候选人公示",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261123/5799009.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "ea03b53a5b613abc",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【市级】 [S110000A001041145012] 北京轨道交通19号线二期工程（北延及北延支线）造价咨询服务03合同段（总体组）中标候选人公示",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261123/5799007.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "ea684b9e98e52ba0",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【市级】 [S110000A001041145016] 北京轨道交通19号线二期工程（北延及北延支线）造价咨询服务02合同段（前期组）中标候选人公示",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261123/5799008.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "b301cb6d1b864b14",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【密云区】 [S110000A001043583006] 密云区鼓楼街道老旧小区管线改造项目-燃气标段（监理）中标候选人公示",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261123/5799026.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "2cefa314f8b41e64",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【密云区】 [S110000A001042623069] 密云水库防灾减灾及蓄水能力提升工程-密云水库智慧应急安全管理系统建设工程（密云水库智慧应急指挥监控平台工程）中标结果公示",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261123/5799056.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "afc46914b896d377",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【怀柔区】 [S110000A001045264001] 怀柔区天河流域河（沟）道防洪能力提升工程（勘察）中标结果公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261123/5799033.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "5b74d2ee6fbe0f58",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【密云区】 [S110000A001045298001] 中国社会科学院密云科研基地改造项目（方案设计、初步设计、施工图设计、建筑师负责制）中标结果公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261123/5799032.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "296fccf5e21604cd",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【丰台区】 [S110000A001044813001] 丰台区城中村改造京深安置房一期（A地块）项目中标结果公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261123/5799002.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "979683c2d4c109c8",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【海淀区】 [S110000A001035612009] 中关村翠湖科技园A1地块人工智能创新应用先导区HD00-0302-6015地块项目(1#科研楼等4项)室外工程中标结果公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261123/5799003.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "56c2d4bdee150f29",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【密云区】 [S110000A001042623079] 密云水库防灾减灾及蓄水能力提升工程(走马庄地块污水处理设施建设工程)（二次）中标结果公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261123/5799004.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "3c4da8af05377ca1",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【通州区】 [S110000A001044980002] 马驹桥镇水生态环境治理建设项目（二标段）中标结果公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261123/5798948.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "c325f2e76aac9eeb",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【密云区】 [S110000A001044917001] 密云区2026年山区森林健康经营林木抚育项目（二标段）施工合同",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "合同公告",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5797049.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "39584f55dd724272",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【昌平区】 [S110000C005085205002] 南邵镇政府食堂服务公开招标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "招标公告",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261123/5799085.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "39fa6e3a771bb8c3",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【怀柔区】 [S110000C005115378001] 京北职院教育收费资金支出-校园综合管理保障项目公开招标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "招标公告",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261123/5799081.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "e80620e2ec109702",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【海淀区】 [S110000C005115373001] 温泉镇综合应急队伍服务项目竞争性磋商公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "竞争性磋商",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261123/5799082.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "818041919ce3d100",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【市级】 [S110000C005115377001] 北京市公安局2026年度服务器、操作系统、数据库采购项目招标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "招标公告",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261123/5799086.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "816f5cc1c011f416",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【顺义区】 [S110000C005115372001] 顺义区李桥镇小中河出境考核断面水质提升项目公开招标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "招标公告",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261123/5799084.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "a2fc66c7f37434ca",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【市级】 [S110000C005115374001] 北京市产品质量监督检验研究院2026年度材料购置项目公开招标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "招标公告",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261123/5799088.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "dd92bcf0f4048127",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【市级】 [S110000C005115375001] 首都之窗运行管理中心系统密码改造项目公开招标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "招标公告",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261123/5799083.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "2e5ab0ad9d7e9def",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【平谷区】 [S110000C005115371001] 马昌营镇2027年劳务派遣采购服务项目公开招标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "招标公告",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261123/5799087.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "6475ac56b0036f8a",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【市级】 [S110000C005115370001] 首都医科大学附属北京儿童医院亦庄院区第一批医用设备购置项目公开招标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "招标公告",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261123/5799080.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "e15a9108b92df10e",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【市级】 [S110000C005115369001] 计量器具技术服务竞争性磋商公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "竞争性磋商",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261123/5799042.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "b92560caae95c483",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【朝阳区】 [S110000C005114333002] 2026年街区控规编制项目其他服务采购项目中标公告更正公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261123/5799105.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "b765c2c0bf57df2c",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【市级】 [S110000C005114998001] 中央财政其他自然保护地和野生动植物保护支出-生物多样性监测及生态安全建设项目（第一包）公开招标公告更正公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "变更更正",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261123/5799059.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "9c2a7149e12eebf1",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【平谷区】 [S110000C005115249001] 平谷区第二轮土地承包到期后再延长30年试点工作项目（第一包）公开招标公告更正公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "变更更正",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261123/5798939.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "c441254992f126ed",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【平谷区】 [S110000C005115249001] 平谷区第二轮土地承包到期后再延长30年试点工作项目（第二包）公开招标公告更正公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "变更更正",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261123/5798938.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "5e875e1b57952a01",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【平谷区】 [S110000C005115249001] 平谷区第二轮土地承包到期后再延长30年试点工作项目（第三包）公开招标公告更正公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "变更更正",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261123/5798937.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "830a91d6c4d4871c",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【平谷区】 [S110000C005115249001] 平谷区第二轮土地承包到期后再延长30年试点工作项目（第四包）公开招标公告更正公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "变更更正",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261123/5798936.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "90f3fe08ccfc39d9",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【海淀区】 [S110000C005115082001] 中关村地区保安服务项目更正公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "变更更正",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5797076.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "02fc88fe0104f580",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【昌平区】 [S110000C005114804001] 2027年大运河源头遗址公园（一期）运营服务及活动项目成交公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261123/5799071.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "3659c6a994741ffe",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【昌平区】 [S110000C005114954001] 昌平区档案馆新馆北楼供暖改造工程成交公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261123/5799078.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "34a6730f67fc1294",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【市级】 [S110000C005114502001] 双高计划-北京经管职业学院-人工智能技术应用专业群（零售机器人实训与服务场景建设项目）中标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261123/5799074.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.005Z"
+    },
+    {
+      "id": "72ccbc4b72a80930",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【市级】 [S110000C005114509001] 智慧城市规划共创空间系统平台建设、硬件及内容制作—交互系统（一期）开发集成与数据整理技术服务中标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261123/5799070.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.005Z"
+    },
+    {
+      "id": "53dd8cfc95769a55",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【海淀区】 [S110000C005114523001] 温泉镇劳务派遣人员-非编人员项目中标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261123/5799077.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.005Z"
+    },
+    {
+      "id": "998a038066f1a56f",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【市级】 [S110000C005112259001] 26教师队伍建设-青年北京学者项目（二次）中标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261123/5799076.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.005Z"
+    },
+    {
+      "id": "985104d57b95c8f4",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "【海淀区】 [S110000C005114763001] 海淀区水源井迁建工程规划综合实施方案编制项目成交公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261123/5799069.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.005Z"
+    },
+    {
+      "id": "fbb2a23ce4208da6",
+      "date": "2026-11-23",
+      "district": "昌平区",
+      "title": "天津国际招标有限公司",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "招标公告",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/ztxxtbr/20261123/5798849.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.009Z"
+    },
+    {
+      "id": "b6ffae448250ebae",
+      "date": "2026-11-23",
+      "district": "东城区",
+      "title": "东城区国债支持电梯更新审核服务比选公告",
+      "summary": "政府采购、招标及公告线索",
+      "type": "采购招标",
+      "sourceName": "东城区通知公告",
+      "sourceType": "官方",
+      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261123_4955138.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:46.996Z"
+    },
+    {
+      "id": "476994152c97285f",
+      "date": "2026-11-23",
+      "district": "东城区",
+      "title": "王府井地区管委会开展教堂广场北侧风井周边道路维修工程择优比选结果公告",
+      "summary": "政府采购、招标及公告线索",
+      "type": "采购招标",
+      "sourceName": "东城区通知公告",
+      "sourceType": "官方",
+      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261120_4954632.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:46.996Z"
+    },
+    {
+      "id": "a3493a225f02eed6",
+      "date": "2026-11-23",
+      "district": "东城区",
+      "title": "王府井地区管委会开展王府井地区综合治理提升项目决算编制择优比选结果公告",
+      "summary": "政府采购、招标及公告线索",
+      "type": "采购招标",
+      "sourceName": "东城区通知公告",
+      "sourceType": "官方",
+      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261120_4954621.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:46.996Z"
+    },
+    {
+      "id": "30116af2f44d3f86",
+      "date": "2026-11-23",
+      "district": "东城区",
+      "title": "【东城区】 [S110000A001045563001] 北京通信段高铁隧道口和防洪重点地段智能视频补强工程施工总价承包招标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "招标公告",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261123/5799119.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.002Z"
+    },
+    {
+      "id": "0491c08670fbc102",
+      "date": "2026-11-23",
+      "district": "东城区",
+      "title": "【丰台区】 [S110000A001045564001] 北京局管内纯铜接触线和钢承力索区段接触网局部大修工程施工总价承包招标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "招标公告",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261123/5799060.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.002Z"
+    },
+    {
+      "id": "1aa6d9db5391c58a",
+      "date": "2026-11-23",
+      "district": "房山区",
+      "title": "【房山区】 [S110000A001045555001] 房山区物华东路（景辰街-清苑南街）道路工程及雨水、污水、给水管线工程施工资格预审公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "资格预审",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261123/5798941.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.002Z"
+    },
+    {
+      "id": "7c7035deaaaa2f6d",
+      "date": "2026-11-23",
+      "district": "房山区",
+      "title": "【西城区】 [S110000A001044190003] 第四批央企在京老旧小区综合整治项目（标包三百九十一）（西城区德胜街道）工程总承包（EPC）施工资格预审公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "资格预审",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261123/5798942.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "2b023cc31c963cbf",
+      "date": "2026-11-23",
+      "district": "房山区",
+      "title": "【市级】 [S110000A001045204001] 北京地铁10号线一期、房山线电梯更新工程电梯采购及安装工程中标候选人公示",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261123/5799025.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "7b523be7798cb5d3",
+      "date": "2026-11-23",
+      "district": "房山区",
+      "title": "【市级】 [S110000A001021854022] 北京地铁3号线一期工程东坝车辆段京酒一二线220KV架空线迁改入地工程设计中标候选人公示",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261123/5799027.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "3495049a8faaa988",
+      "date": "2026-11-23",
+      "district": "房山区",
+      "title": "【房山区】 [S110000A001044965001] 房山区良乡组团FS00-0110街区0001、0003、0004地块建设项目一期(展厅项目)可再生能源耦合系统供能项目中标结果公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261123/5798984.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "f39dc66a4db6ae7e",
+      "date": "2026-11-23",
+      "district": "房山区",
+      "title": "【昌平区】 [S110000A001045191001] 昌平区城北公园（监理）中标结果公示",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261123/5798963.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "8c6270359602f0df",
+      "date": "2026-11-23",
+      "district": "石景山区",
+      "title": "石景山区政务服务中心食堂日常食材采购及配送服务公开招标公告",
+      "summary": "招标采购入口",
+      "type": "招标公告",
+      "sourceName": "石景山区公共资源交易",
+      "sourceType": "官方",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7395.jhtml",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:46.998Z"
+    },
+    {
+      "id": "1941dcbc8c1360ec",
+      "date": "2026-11-23",
+      "district": "石景山区",
+      "title": "【石景山区】 [S110000A001043257010] 第四批央企在京老旧小区综合整治项目（标包三百八十五）（石景山区八宝山街道）（全过程工程咨询项目）中标候选人公示",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261123/5798967.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "1657b667ca0a4987",
+      "date": "2026-11-23",
+      "district": "石景山区",
+      "title": "【房山区】 [S110000A001045124001] 北京市房山区良乡大学城主园区FS00-0120-0029、0028地块二类城镇住宅用地、商业用地项目（6#、7#、9#、12#-14#",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261121/5798190.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.003Z"
+    },
+    {
+      "id": "d8e932f19818bc63",
+      "date": "2026-11-23",
+      "district": "石景山区",
+      "title": "【石景山区】 [S110000C005115153001] 十五年一贯制特殊教育学校改善办学条件教具采购项目更正公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "变更更正",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261123/5799051.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "5e0c4e803a28a5ab",
+      "date": "2026-11-23",
+      "district": "石景山区",
+      "title": "【石景山区】 [S110000C005114677002] 衙门口配套小学及培智学校教育教学设施设备配备项目触控一体机采购项目（第一包：多媒体教学设备）更正公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "变更更正",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261123/5799050.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "62b0d3db1f442514",
+      "date": "2026-11-23",
+      "district": "石景山区",
+      "title": "【平谷区】 [S110000C005114684002] 全健康（OneHealth）国际科技合作中心项目（宠物繁育与干细胞科研健康实验中心）更正公告（2）",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "变更更正",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261123/5799006.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.004Z"
+    },
+    {
+      "id": "91e69ad83412de50",
+      "date": "2026-11-23",
+      "district": "石景山区",
+      "title": "【石景山区】 [S110000C005114440002] 2026年石景山区教育系统操作系统及软件正版化服务采购项目中标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261123/5799072.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.005Z"
+    },
+    {
+      "id": "2182aec1e428a575",
+      "date": "2026-11-23",
+      "district": "石景山区",
+      "title": "【市级】 [S110000C005114455001] 双高计划-北京经管职业学院-人工智能技术应用专业群（国际化交流合作项目）中标公告",
+      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
+      "type": "中标成交",
+      "sourceName": "北京市公共资源交易服务平台",
+      "sourceType": "官方",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261123/5799073.html",
+      "confidence": "auto",
+      "capturedAt": "2026-11-23T07:56:47.005Z"
+    },
+    {
       "id": "a740597d57a1134d",
       "date": "2026-11-21",
       "district": "昌平区",
@@ -23,7 +868,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261121/5798273.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
+      "capturedAt": "2026-11-23T07:56:47.003Z"
     },
     {
       "id": "97cc7a9487c2f044",
@@ -36,59 +881,20 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261120/5798127.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
+      "capturedAt": "2026-11-23T07:56:47.003Z"
     },
     {
-      "id": "c8ad86d7058d28bb",
+      "id": "01b0d49320fb4616",
       "date": "2026-11-21",
       "district": "昌平区",
-      "title": "【市级】 [S110000A001045093002] 通燕高速北关立交改造工程(监理)中标候选人公示",
+      "title": "【大兴区】 [S110000A001039138003] 亦庄500千伏变电站220千伏送出工程树木移植中标候选人公示",
       "summary": "工程建设与公共资源交易入口，需按昌平筛选",
       "type": "中标成交",
       "sourceName": "北京市公共资源交易服务平台",
       "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5797390.html",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261123/5799152.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "09c08e60926faef0",
-      "date": "2026-11-21",
-      "district": "昌平区",
-      "title": "【通州区】 [S110000A001045067001] 北京市通州区老城平房棚户区改造项目一期土桥东西地块FZX-0306-6037地块R2二类居住用地项目监理中标结果公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261121/5798681.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "b3abf57087ced9a0",
-      "date": "2026-11-21",
-      "district": "昌平区",
-      "title": "【通州区】 [S110000A001045067002] 北京市通州区老城平房棚户区改造项目一期土桥东西地块FZX-0306-6037地块R2二类居住用地项目中标结果公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261121/5798679.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "6b3fadca67db1411",
-      "date": "2026-11-21",
-      "district": "昌平区",
-      "title": "【丰台区】 [S110000A001043933004] 梅市口路二期(长兴路-云岗路)道路工程2#标段中标结果公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5797279.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
+      "capturedAt": "2026-11-23T07:56:47.003Z"
     },
     {
       "id": "4c488616e41258fb",
@@ -101,7 +907,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxnccqzbjj/20261121/5798282.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.329Z"
+      "capturedAt": "2026-11-23T07:56:47.006Z"
     },
     {
       "id": "001f3d29d5e69016",
@@ -114,7 +920,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxnccqzbjj/20261121/5798275.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.330Z"
+      "capturedAt": "2026-11-23T07:56:47.006Z"
     },
     {
       "id": "b1f27bed41670fb9",
@@ -127,7 +933,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/bxggqt/20260923/5726220.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.330Z"
+      "capturedAt": "2026-11-23T07:56:47.006Z"
     },
     {
       "id": "33230bc27885d209",
@@ -140,33 +946,20 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261119/5793754.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
+      "capturedAt": "2026-11-23T07:56:47.003Z"
     },
     {
-      "id": "89243cf3fec8c4fc",
+      "id": "ed67800e549390f2",
       "date": "2026-11-20",
       "district": "昌平区",
-      "title": "【市级】 [S110000P001034829] 旧宫镇镇区农村集体经营性建设用地入市试点项目配套隆华路（旧桥路-隆安路）市政工程（监理）（更正）",
+      "title": "【丰台区】 [S110000A001045565001] 黄村站新增智能可控防溜停车器工程施工总价承包招标公告",
       "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "变更更正",
+      "type": "招标公告",
       "sourceName": "北京市公共资源交易服务平台",
       "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbjh/20261120/5796803.html",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261123/5799120.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
-    },
-    {
-      "id": "b415ab67f40dcbb5",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【市级】 [S110000A001043020010] 新建西安至安康高速铁路西安东至窑村联络线工程监理招标资格预审公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "资格预审",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5798121.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
+      "capturedAt": "2026-11-23T07:56:47.002Z"
     },
     {
       "id": "56692bbe67bd1672",
@@ -179,7 +972,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5798120.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
+      "capturedAt": "2026-11-23T07:56:47.002Z"
     },
     {
       "id": "f2f4b3a852f1032f",
@@ -192,7 +985,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5797459.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
+      "capturedAt": "2026-11-23T07:56:47.002Z"
     },
     {
       "id": "cebe2c497d537a09",
@@ -205,7 +998,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5797093.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
+      "capturedAt": "2026-11-23T07:56:47.002Z"
     },
     {
       "id": "b6b9944c64bb803f",
@@ -218,228 +1011,33 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5797092.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
+      "capturedAt": "2026-11-23T07:56:47.002Z"
     },
     {
-      "id": "f5a06c11ccb6d3f7",
+      "id": "6a32bfa6c10389d2",
       "date": "2026-11-20",
       "district": "昌平区",
-      "title": "【市级】 [S110000A001045556001] 北人亦创国际会展中心AB馆空调改造及（北）会议中心电气改造工程施工资格预审公告",
+      "title": "【怀柔区】 [S110000A001039299005] 北京市怀柔区妇幼保健院迁址新建工程(医疗综合楼等13项)高低压柜设备采购招标更正公告",
       "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "资格预审",
+      "type": "变更更正",
       "sourceName": "北京市公共资源交易服务平台",
       "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5797091.html",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261123/5799031.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
+      "capturedAt": "2026-11-23T07:56:47.002Z"
     },
     {
-      "id": "beace1d83a7c0dc5",
+      "id": "3cfc5e139b573e3a",
       "date": "2026-11-20",
       "district": "昌平区",
-      "title": "【丰台区】 [S110000A001045305003] 卢沟桥—宛平城城市更新项目（一期）（第二标段）（方案设计、初步设计、施工图设计）招标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "招标公告",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5797090.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
-    },
-    {
-      "id": "b6cbf9745e167b3f",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【海淀区】 [S110000A001045547001] 中关村街道知春路花园式融合创新场景项目（公共空间）招标公告",
+      "title": "【大兴区】 [S110000A001045316004] 大兴新城芦城地区（西片区单元）城中村改造一期A组团项目配套市政道路兴荣街等5条道路及管线工程施工招标公告",
       "summary": "工程建设与公共资源交易入口，需按昌平筛选",
       "type": "招标公告",
       "sourceName": "北京市公共资源交易服务平台",
       "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5797089.html",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261120/5798917.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
-    },
-    {
-      "id": "87f594d790a262a5",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【顺义区】 [S110000A001045368001] 北京市顺义区首都机场（AMECO职工活动中心）4幢一、二层装修工程施工招标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "招标公告",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261121/5798284.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
-    },
-    {
-      "id": "a6075aa229209461",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【朝阳区】 [S110000A001045296002] 朝阳区崔各庄乡奶西村棚户区改造新建学校项目（勘察）中标候选人公示",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261121/5798296.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "54d9e58103d3e8bf",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【市级】 [S110000A001045093001] 通燕高速北关立交改造工程(施工)中标候选人公示",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5797389.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "9aab8d05958fa9e3",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【市级】 [S110000A001045149001] 京港澳高速公路(杜家坎-京冀界段)扩容改造提升工程(施工)中标候选人公示",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5797260.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "66b1284ea8664918",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【密云区】 [S110000A001045309001] 智能导钻装备中试平台条件保障项目（方案设计、初步设计、施工图设计）中标候选人公示",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5797262.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "9d969dc15456f7a8",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【朝阳区】 [S110000A001045049001] 北京2027年世界田径锦标赛国家体育场（鸟巢）设施设备维修维护提升改造项目中标候选人公示",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5797233.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "54fde54e7c26176c",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【丰台区】 [S110000A001044542001] 中央民族大学丰台校区信息工程学院教学楼专业区域装修工程采购项目中标候选人公示",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5797232.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "db4515ef983307bd",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【丰台区】 [S110000A001044672002] 第五批央企在京老旧小区综合整治项目（F标包四十一）（丰台区看丹街道）工程总承包（EPC）中标候选人公示",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5796886.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "55486f75d8bc4bcc",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【朝阳区】 [S110000A001044950002] 朝阳区麦子店西路（霄云路-太阳宫商务中心地块北侧慢行路）道路及市政配套工程（勘察）中标结果公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5796585.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "fd7147c83d922775",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【朝阳区】 [S110000A001038299017] 朝阳区平房乡黄杉木店亮马厂安置房项目（西区）（1#住宅楼等23项）（5#至14#住宅楼、S-2#至S-6#配套楼、S-7#至S-8#产",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5796550.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "f758fae3d47d4804",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【朝阳区】 [S110000A001043946005] 朝阳区平房乡黄杉木店亮马厂安置 房项目（西区）（1#住宅楼等 23项）（5#至14#住宅楼、S-2#至 S-6#配套楼、S-7#至S-",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5796551.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "e5fe067d088db75c",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【朝阳区】 [S110000A001039750010] 朝阳区平房乡黄杉木店亮马厂安置房项目（西区）（1#住宅楼等23项）（5#至14#住宅楼、S-2#至S-6#配套楼、S-7#至S-8#产",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5796498.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "d41cd7c04e9a4520",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【朝阳区】 [S110000A001045155002] 2026年朝阳区水源置换工程中标结果公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5796423.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "848aaa210e0538bb",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【西城区】 [S110000A001044788002] 广安体育中心改建项目（监理）中标结果公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261120/5796424.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
+      "capturedAt": "2026-11-23T07:56:47.003Z"
     },
     {
       "id": "57d93764c8f18708",
@@ -452,7 +1050,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5797048.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
+      "capturedAt": "2026-11-23T07:56:47.004Z"
     },
     {
       "id": "56719b0d0ec99a61",
@@ -465,7 +1063,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5796984.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
+      "capturedAt": "2026-11-23T07:56:47.004Z"
     },
     {
       "id": "c8b73f6a301d8c3d",
@@ -478,7 +1076,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5796913.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
+      "capturedAt": "2026-11-23T07:56:47.004Z"
     },
     {
       "id": "db01b07faed951db",
@@ -491,7 +1089,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5797050.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
+      "capturedAt": "2026-11-23T07:56:47.004Z"
     },
     {
       "id": "3c238e6659a968fe",
@@ -504,7 +1102,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5796914.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
+      "capturedAt": "2026-11-23T07:56:47.004Z"
     },
     {
       "id": "496a21e10ab818d5",
@@ -517,7 +1115,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5796699.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
+      "capturedAt": "2026-11-23T07:56:47.004Z"
     },
     {
       "id": "185cb03410f574b8",
@@ -530,319 +1128,20 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5796264.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
+      "capturedAt": "2026-11-23T07:56:47.004Z"
     },
     {
-      "id": "66cc9f0e1fe659cc",
+      "id": "9596d0a7945866c6",
       "date": "2026-11-20",
       "district": "昌平区",
-      "title": "【通州区】 [S110000A001044607002] 北京市通州区漷县镇万福鑫茂农业有限公司2026年超长期特别国债资金支持设施农业（种植业）更新改造项目施工合同",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "合同公告",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261119/5795439.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "6267df659d71285c",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【市级】 [S110000C005114472001] 北京市市场监督管理局2026年综合监管支撑保障项目第二次公开招标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "招标公告",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797393.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "528af592e655a28b",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【怀柔区】 [S110000C005115354001] 2025年怀柔区生态清洁小流域管护2025年怀柔区生态清洁小流域管护项目竞争性磋商公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "竞争性磋商",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797267.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "55491b7d9bf42d78",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【市级】 [S110000C005115353001] 工作站购置项目招标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "招标公告",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797269.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "3d0768d943e32454",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【市级】 [S110000C005115352001] 市局2026年算力租赁项目公开招标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "招标公告",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797268.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "cbf882d357f00ef4",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【市级】 [S110000C005115349001] 北京市残疾人服务示范中心2027年度设备设施维护保养项目包1中央空调维护保养竞争性磋商公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "竞争性磋商",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797123.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "3a89a19d2b987d0e",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【市级】 [S110000C005115349001] 北京市残疾人服务示范中心2027年度设备设施维护保养项目包2电梯维护保养竞争性磋商公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "竞争性磋商",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797121.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "b6f3ff526c9f796d",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【海淀区】 [S110000C005115082001] 中关村地区保安服务项目更正公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "变更更正",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5797076.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "1c8c9e25456ecb2e",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【海淀区】 [S110000C005114420001] 中关村街道劳务派遣服务项目中标公告更正公告",
+      "title": "【朝阳区】 [S110000C005115051001] 东湖街道街区控制性详细规划编制项目中标公告",
       "summary": "工程建设与公共资源交易入口，需按昌平筛选",
       "type": "中标成交",
       "sourceName": "北京市公共资源交易服务平台",
       "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796983.html",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261123/5799079.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "a1dc0c09feb3638c",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【西城区】 [S110000C005114979001] 执法办案管理中心医疗服务采购项目更正公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "变更更正",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796982.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "c0eb58b6d80ca9a5",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【西城区】 [S110000C005114978001] 西城区看守所拘留所医疗服务采购项目更正公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "变更更正",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796980.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "75cc43f6d59dd1c8",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【西城区】 [S110000C005113391001] 更新设备-西城区展览路医院数字化X射线机购置项目医用X线诊断设备采购项目中标公告更正公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796979.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "50cbdefdaea9bc57",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【西城区】 [S110000C005071839003] 西城公安分局物业服务项目（第1、2包）招标公告更正公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "变更更正",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796981.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "ae2db84abb4da161",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【市级】 [S110000C005114416001] 2026年度北京安定医院导医保洁及综合维修等服务项目更正公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "变更更正",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796857.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "bb5c651a076321b3",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【顺义区】 [S110000C005115291001] HIS系统升级硬件采购项目(目录外)公开招标公告更正公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "变更更正",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796697.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "f120b92411173178",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【通州区】 [S110000C005115215001] 首都医科大学附属北京潞河医院委托医学检验服务项目更正公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "变更更正",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796698.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "5eb5257ddc4b4841",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【市级】 [S110000C005113388001] 北京市属医院2026年医用设备集中带量采购项目体征监测维持组（脑电图仪）（第9包）中标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797314.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.328Z"
-    },
-    {
-      "id": "c2617c7353174d40",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【朝阳区】 [S110000C005115050001] 生物试剂盒采购项目成交公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797316.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.328Z"
-    },
-    {
-      "id": "0b5b342f3c13e900",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【朝阳区】 [S110000C005114776001] 2026-2027年度互联网信息数据统计和分析项目成交公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797317.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.328Z"
-    },
-    {
-      "id": "6c0e3fd0bde10cc3",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【市级】 [S110000C005114472001] 北京市市场监督管理局2026年综合监管支撑保障项目废标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "废标流标",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797315.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.328Z"
-    },
-    {
-      "id": "e83407a16b58a7d9",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【西城区】 [S110000C005114330001] 2026年-2027年西长安街街道社会面巡逻防控项目中标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797109.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.328Z"
-    },
-    {
-      "id": "d8392b693066f83c",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【丰台区】 [S110000C005114518001] “丰台历史文化展”相关延伸展服务项目中标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797111.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.328Z"
-    },
-    {
-      "id": "2e61379a5b998a60",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【丰台区】 [S110000C005114384001] 天悦壹号配套学校一体化建设项目—信息化设备配备项目2026中标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797112.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.328Z"
-    },
-    {
-      "id": "2120316737ade7ce",
-      "date": "2026-11-20",
-      "district": "昌平区",
-      "title": "【丰台区】 [S110000C005114517001] “丰台历史文化展”仿制文物项目中标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797108.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.328Z"
+      "capturedAt": "2026-11-23T07:56:47.004Z"
     },
     {
       "id": "656f17a4faed02bc",
@@ -855,7 +1154,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261120/5796895.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.330Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "b7dc1ada9c83386e",
@@ -868,7 +1167,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261119/5794621.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.330Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "8cfa0c702691fa4c",
@@ -881,7 +1180,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261119/5794559.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.330Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "7a6d0b612c98552d",
@@ -894,7 +1193,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261119/5794576.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "8665225cb14b38f7",
@@ -907,33 +1206,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20261026/5761927.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
-    },
-    {
-      "id": "ebe848c01a6ba877",
-      "date": "2026-11-20",
-      "district": "东城区",
-      "title": "王府井地区管委会开展教堂广场北侧风井周边道路维修工程择优比选结果公告",
-      "summary": "政府采购、招标及公告线索",
-      "type": "采购招标",
-      "sourceName": "东城区通知公告",
-      "sourceType": "官方",
-      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261120_4954632.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.320Z"
-    },
-    {
-      "id": "21b42c3d3a8adcef",
-      "date": "2026-11-20",
-      "district": "东城区",
-      "title": "王府井地区管委会开展王府井地区综合治理提升项目决算编制择优比选结果公告",
-      "summary": "政府采购、招标及公告线索",
-      "type": "采购招标",
-      "sourceName": "东城区通知公告",
-      "sourceType": "官方",
-      "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261120_4954621.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.320Z"
+      "capturedAt": "2026-11-23T07:56:47.008Z"
     },
     {
       "id": "2a8db93d52262786",
@@ -946,7 +1219,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261120_4954537.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.320Z"
+      "capturedAt": "2026-11-23T07:56:46.996Z"
     },
     {
       "id": "b33ff4c6c8895b9a",
@@ -959,7 +1232,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261120_4954519.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.320Z"
+      "capturedAt": "2026-11-23T07:56:46.996Z"
     },
     {
       "id": "f1355cc00dc21c4a",
@@ -972,7 +1245,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261120_4954513.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.320Z"
+      "capturedAt": "2026-11-23T07:56:46.996Z"
     },
     {
       "id": "878e5449151ca1ef",
@@ -985,7 +1258,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261120_4954373.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.320Z"
+      "capturedAt": "2026-11-23T07:56:46.996Z"
     },
     {
       "id": "0ed525aaa0831c85",
@@ -998,7 +1271,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261120_4954284.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.320Z"
+      "capturedAt": "2026-11-23T07:56:46.996Z"
     },
     {
       "id": "165b3193b6d1aacf",
@@ -1011,215 +1284,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261119_4952871.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.320Z"
-    },
-    {
-      "id": "28cb56bc39207046",
-      "date": "2026-11-20",
-      "district": "东城区",
-      "title": "【东城区】 [S110000C005115348001] 2026-2027年东城区重大区域违停执法智能抓拍系统运维项目公开招标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "招标公告",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797122.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "0bc3672faecf7191",
-      "date": "2026-11-20",
-      "district": "东城区",
-      "title": "【东城区】 [S110000C005115350001] 东四街道2027年机关食堂服务项目竞争性磋商公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "竞争性磋商",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797125.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "8586df2deadcc074",
-      "date": "2026-11-20",
-      "district": "东城区",
-      "title": "【通州区】 [S110000C005115347001] 北京市通州区消防救援支队消防救援装备采购项目公开招标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "招标公告",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797124.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
-    },
-    {
-      "id": "d63a7bf38e9745a2",
-      "date": "2026-11-20",
-      "district": "东城区",
-      "title": "【东城区】 [S110000C005115045001] 北京市东城区消防救援支队购置小型消防站装备项目废标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "废标流标",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797107.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.328Z"
-    },
-    {
-      "id": "791ae844a9cee2ba",
-      "date": "2026-11-20",
-      "district": "东城区",
-      "title": "【市级】 [S110000C005114218001] 2026年首都儿童医学中心医用设备购置项目（通州院区1）第12包、第24包、第32包、第35包、第36包、第39包、第41包、第48包、",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261120/5797115.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.328Z"
-    },
-    {
-      "id": "ebd7d47812a0847c",
-      "date": "2026-11-20",
-      "district": "房山区",
-      "title": "【房山区】 [S110000A001033639004] 房山区河北镇房东路（水泥一厂中路-镇界）道路工程水泥一厂中路至东万路段及雨水、再生水管线工程监理监理资格预审公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "资格预审",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5797088.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
-    },
-    {
-      "id": "6bd6cbd6e48c83d9",
-      "date": "2026-11-20",
-      "district": "房山区",
-      "title": "【昌平区】 [S110000A001045559001] 北七家镇歇甲北街、歇甲南街、歇甲中路随路电力管线工程施工资格预审公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "资格预审",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261120/5797087.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
-    },
-    {
-      "id": "9c1a315334245a54",
-      "date": "2026-11-20",
-      "district": "房山区",
-      "title": "【房山区】 [S110000A001045557001] 房山区清阳西街（兴良路-白杨东路）道路工程及雨水、污水、给水、再生水管线工程施工资格预审公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "资格预审",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261120/5797275.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "29cb206cd5845f4c",
-      "date": "2026-11-20",
-      "district": "房山区",
-      "title": "【房山区】 [S110000A001045558001] 房山区清阳东街（兴良路-白杨东路）道路工程及雨水、污水、给水、再生水管线工程施工资格预审公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "资格预审",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261120/5797274.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "353315fc2dfb20cb",
-      "date": "2026-11-20",
-      "district": "房山区",
-      "title": "【房山区】 [S110000A001045555001] 房山区物华东路（景辰街-清苑南街）道路工程及雨水、污水、给水管线工程施工资格预审公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "资格预审",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261120/5797273.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "e9c2f2b2783b61c0",
-      "date": "2026-11-20",
-      "district": "房山区",
-      "title": "【市级】 [S110000A001045551001] 陇海铁路郑州至太要段改造工程施工总价承包招标招标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "招标公告",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261120/5796496.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "1aeaea1afe7b7335",
-      "date": "2026-11-20",
-      "district": "房山区",
-      "title": "【房山区】 [S110000A001045069001] 窦店物流基地（一期）土地前期开发项目道路工程二号地、三号地配套道路及市政管线工程中标候选人公示",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5797231.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "0a7cdec93432fac1",
-      "date": "2026-11-20",
-      "district": "房山区",
-      "title": "【通州区】 [S110000A001045313001] 通州区西集镇网络安全产业园区道路健康工程（创益东二路、创益东一路、靓丽东三街、靓丽四街、靓丽五街）中标候选人公示",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20261120/5797118.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "e52d7255275ae8b7",
-      "date": "2026-11-20",
-      "district": "房山区",
-      "title": "【房山区】 [S110000A001045124001] 北京市房山区良乡大学城主园区FS00-0120-0029、0028地块二类城镇住宅用地、商业用地项目（6#、7#、9#、12#-14#",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261121/5798190.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "bf9bd155d79d8a03",
-      "date": "2026-11-20",
-      "district": "房山区",
-      "title": "【房山区】 [S110000C005113856001] 南窖乡指挥所升级改造项目成交公告更正公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "中标成交",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgzsx/20261120/5796560.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.328Z"
-    },
-    {
-      "id": "429113961836e32b",
-      "date": "2026-11-20",
-      "district": "石景山区",
-      "title": "石景山区政务服务中心食堂日常食材采购及配送服务公开招标公告",
-      "summary": "招标采购入口",
-      "type": "招标公告",
-      "sourceName": "石景山区公共资源交易",
-      "sourceType": "官方",
-      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7395.jhtml",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.321Z"
+      "capturedAt": "2026-11-23T07:56:46.996Z"
     },
     {
       "id": "b4d38dc4a445f064",
@@ -1232,7 +1297,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7393.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.321Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "91175b3260eaedd5",
@@ -1245,7 +1310,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7391.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.321Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "dc7fe9e90a32fc4f",
@@ -1258,7 +1323,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7387.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.321Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "c6bf718947bba0c3",
@@ -1271,46 +1336,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7355.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
-    },
-    {
-      "id": "71e51d5f1ef4e52c",
-      "date": "2026-11-20",
-      "district": "石景山区",
-      "title": "【石景山区】 [S110000A001029015002] 古城南里45号装饰装修工程施工资格预审公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "资格预审",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261120/5796341.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "1df68803cb3c5792",
-      "date": "2026-11-20",
-      "district": "石景山区",
-      "title": "【房山区】 [S110000A001045496001] 北京理工大学临近空间环境特征及效应实验楼项目施工资格预审公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "资格预审",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261119/5795199.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
-    },
-    {
-      "id": "3625d2e9a4f6536b",
-      "date": "2026-11-20",
-      "district": "石景山区",
-      "title": "【石景山区】 [S110000C005115345001] 五里坨街道2027年精细化保洁项目二标段公开招标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "招标公告",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxcggg/20261120/5797040.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "1e9200911b2fabd5",
@@ -1323,7 +1349,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/hyzx/20261119/5794410.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
+      "capturedAt": "2026-11-23T07:56:47.002Z"
     },
     {
       "id": "27121d35ace817b1",
@@ -1336,7 +1362,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/hyzx/20261106/5777398.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
+      "capturedAt": "2026-11-23T07:56:47.002Z"
     },
     {
       "id": "27a9cb034fef467c",
@@ -1349,7 +1375,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261119/5793753.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
+      "capturedAt": "2026-11-23T07:56:47.003Z"
     },
     {
       "id": "a25b6f6cbb075ee9",
@@ -1362,7 +1388,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261117/5790020.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
+      "capturedAt": "2026-11-23T07:56:47.003Z"
     },
     {
       "id": "01e3542764d37a68",
@@ -1375,7 +1401,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261119/5794558.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.330Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "03cef1961ccd1333",
@@ -1388,7 +1414,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261118/5792833.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "395401b6796b650b",
@@ -1401,7 +1427,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261119/5794574.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "26e644197bfaf989",
@@ -1414,7 +1440,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261118/5792871.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "200cb2a037f69b6c",
@@ -1427,7 +1453,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261119_4952860.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.320Z"
+      "capturedAt": "2026-11-23T07:56:46.996Z"
     },
     {
       "id": "5896b0662bde253a",
@@ -1440,20 +1466,7 @@
       "sourceType": "官方",
       "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202611/t20261119_4952747.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.320Z"
-    },
-    {
-      "id": "ff18d3874bc48c3b",
-      "date": "2026-11-19",
-      "district": "房山区",
-      "title": "【朝阳区】 [S110000A001044820005] 垡头西路(祁家庄东路-垡头南路)道路及配套市政管线工程监理监理招标公告",
-      "summary": "工程建设与公共资源交易入口，需按昌平筛选",
-      "type": "招标公告",
-      "sourceName": "北京市公共资源交易服务平台",
-      "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjsgzgg/20261119/5795198.html",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
+      "capturedAt": "2026-11-23T07:56:46.996Z"
     },
     {
       "id": "9d76e40b67b1aad5",
@@ -1466,7 +1479,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7386.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.321Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "c5a03fbaa98c01a0",
@@ -1479,20 +1492,20 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7383.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.321Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
-      "id": "babb0de23d6d8943",
+      "id": "a4bb9906892ed326",
       "date": "2026-11-19",
       "district": "石景山区",
-      "title": "特定行业类公用经费保安服务采购项目公开招标公告",
+      "title": "市容环境管理所选取劳务外包公司项目更正公告",
       "summary": "招标采购入口",
-      "type": "招标公告",
+      "type": "变更更正",
       "sourceName": "石景山区公共资源交易",
       "sourceType": "官方",
-      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccg/7381.jhtml",
+      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7388.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "6fb0f334fff11818",
@@ -1505,7 +1518,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/tzgg/20261109/5780292.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
+      "capturedAt": "2026-11-23T07:56:47.002Z"
     },
     {
       "id": "30a0eb0ca7d6023a",
@@ -1518,7 +1531,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261118/5792832.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "0473ac0b00ca2441",
@@ -1531,7 +1544,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261117/5790819.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "636c529b68bb345a",
@@ -1544,7 +1557,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261117/5790798.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "e023f8fb2b5811fa",
@@ -1557,7 +1570,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261117/5790916.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "5c50dc817f587e84",
@@ -1570,20 +1583,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261117/5790860.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
-    },
-    {
-      "id": "aab4e4f32a6b6ea4",
-      "date": "2026-11-18",
-      "district": "石景山区",
-      "title": "市容环境管理所选取劳务外包公司项目更正公告",
-      "summary": "招标采购入口",
-      "type": "变更更正",
-      "sourceName": "石景山区公共资源交易",
-      "sourceType": "官方",
-      "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7388.jhtml",
-      "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "c8cc45efae1cac9a",
@@ -1596,7 +1596,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261114/5787940.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
+      "capturedAt": "2026-11-23T07:56:47.003Z"
     },
     {
       "id": "01ea7de90125330c",
@@ -1609,7 +1609,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbgg/20261117/5790788.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "43a17e3ad396fceb",
@@ -1622,7 +1622,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfzbgg/20261113/5786600.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "ecaef2f26af05f09",
@@ -1635,7 +1635,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261116/5789283.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.008Z"
     },
     {
       "id": "21a03fc8310956ad",
@@ -1648,7 +1648,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzbhxrgs/7331.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "0ad4c21e7f98afa6",
@@ -1661,7 +1661,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/tzgg/20261016/5751232.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
+      "capturedAt": "2026-11-23T07:56:47.002Z"
     },
     {
       "id": "bd038fa3a25298af",
@@ -1674,7 +1674,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261116/5789282.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.008Z"
     },
     {
       "id": "d3a418ae340df673",
@@ -1687,7 +1687,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261116/5789279.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.008Z"
     },
     {
       "id": "7c353541548733a7",
@@ -1700,7 +1700,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261116/5789278.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.008Z"
     },
     {
       "id": "eb4e17570bbd7ead",
@@ -1713,7 +1713,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20261120/5796880.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.008Z"
     },
     {
       "id": "ec26687d5627fa35",
@@ -1726,7 +1726,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261114/5787939.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
+      "capturedAt": "2026-11-23T07:56:47.003Z"
     },
     {
       "id": "4385caeef07ed41b",
@@ -1739,7 +1739,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261111/5782588.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
+      "capturedAt": "2026-11-23T07:56:47.003Z"
     },
     {
       "id": "5ac25ac549523ed6",
@@ -1752,7 +1752,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgxqgg/20261030/5767942.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.330Z"
+      "capturedAt": "2026-11-23T07:56:47.006Z"
     },
     {
       "id": "a891a2183b3389dc",
@@ -1765,7 +1765,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgxqgg/20260702/5606896.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.330Z"
+      "capturedAt": "2026-11-23T07:56:47.006Z"
     },
     {
       "id": "adc43b397bf20164",
@@ -1778,7 +1778,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfzbgg/20261022/5757988.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "5b719c3ada072508",
@@ -1791,7 +1791,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfzbgg/20260806/5658663.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "594d9033d586c319",
@@ -1804,7 +1804,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20261030/5768630.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "76cc1c95051a3d4c",
@@ -1817,7 +1817,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20261022/5757986.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "04cd2e30c1496888",
@@ -1830,7 +1830,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261110/5780791.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
+      "capturedAt": "2026-11-23T07:56:47.003Z"
     },
     {
       "id": "c0a8bc4318355527",
@@ -1843,7 +1843,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7282.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "e1ee326789cc5a45",
@@ -1856,20 +1856,20 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261109/5779852.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
+      "capturedAt": "2026-11-23T07:56:47.003Z"
     },
     {
-      "id": "955c029fe1b89916",
+      "id": "ab7b72d6d47dd4f0",
       "date": "2026-11-10",
       "district": "昌平区",
-      "title": "【密云区】 [S110000A001044917001] 密云区2026年山区森林健康经营林木抚育项目（二标段）施工合同",
+      "title": "【怀柔区】 [S110000A001045262001] 怀柔区琉璃河流域河（沟）道防洪能力提升工程（勘察）合同公示",
       "summary": "工程建设与公共资源交易入口，需按昌平筛选",
       "type": "合同公告",
       "sourceName": "北京市公共资源交易服务平台",
       "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261120/5797049.html",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjshtgs/20261123/5799029.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.327Z"
+      "capturedAt": "2026-11-23T07:56:47.004Z"
     },
     {
       "id": "0fdc6c5cf20f2cde",
@@ -1882,7 +1882,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxgcjszbyx/20261107/5778722.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
+      "capturedAt": "2026-11-23T07:56:47.003Z"
     },
     {
       "id": "45c1f71d960826c3",
@@ -1895,7 +1895,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7344.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "65467b422d8d3342",
@@ -1908,20 +1908,20 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccj/7265.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
-      "id": "8eb631be66bfe635",
+      "id": "0e3e0aa2e4f239c7",
       "date": "2026-11-07",
       "district": "房山区",
-      "title": "【平谷区】 [S110000A001045329001] 2026年平谷区普通公路中修工程（第二批）施工-2026年平谷区普通公路中修工程（第二批）施工(施工)中标结果公告",
+      "title": "【通州区】 [S110000A001045322002] 北京市通州区2026年高标准农田建设项目（第一批）中标结果公示",
       "summary": "工程建设与公共资源交易入口，需按昌平筛选",
       "type": "中标成交",
       "sourceName": "北京市公共资源交易服务平台",
       "sourceType": "官方",
-      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261121/5798303.html",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbgg/20261123/5799057.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.326Z"
+      "capturedAt": "2026-11-23T07:56:47.003Z"
     },
     {
       "id": "607cd216e1767f73",
@@ -1934,7 +1934,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7333.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "444068f15cdd1235",
@@ -1947,7 +1947,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/hyzx/20261013/5744190.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
+      "capturedAt": "2026-11-23T07:56:47.002Z"
     },
     {
       "id": "ebbf0ca42b46f5ef",
@@ -1960,7 +1960,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcgz/7314.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "d7ecd977e0f9dd13",
@@ -1973,7 +1973,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzbhxrgs/7256.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "65e1c67d8aafcb4f",
@@ -1986,7 +1986,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20261013/5745184.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "5ca4366ab5da8705",
@@ -1999,7 +1999,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccj/7349.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "3035ab8e64fe56bd",
@@ -2012,7 +2012,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20261021/5756337.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.008Z"
     },
     {
       "id": "8b4ae59bc66f2b0e",
@@ -2025,7 +2025,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20261016/5750684.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.008Z"
     },
     {
       "id": "940c5a81fb74f304",
@@ -2038,7 +2038,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20260930/5735284.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "507e72f9b8ebb292",
@@ -2051,7 +2051,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20261016/5750683.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.008Z"
     },
     {
       "id": "0a5302e1402d8823",
@@ -2064,7 +2064,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20261015/5748668.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.008Z"
     },
     {
       "id": "eb2ff257f0e558f2",
@@ -2077,7 +2077,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20261014/5747107.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.008Z"
     },
     {
       "id": "c1cb67481f1cce63",
@@ -2090,7 +2090,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20260921/5721614.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.008Z"
     },
     {
       "id": "469130fb88f93dac",
@@ -2103,7 +2103,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/zxjjktbx/20260529/5552070.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.330Z"
+      "capturedAt": "2026-11-23T07:56:47.006Z"
     },
     {
       "id": "986c7a4cfc0826e6",
@@ -2116,7 +2116,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20260920/5720143.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.008Z"
     },
     {
       "id": "b28ab13f4cd89feb",
@@ -2129,7 +2129,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/hyzx/20260924/5727079.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
+      "capturedAt": "2026-11-23T07:56:47.002Z"
     },
     {
       "id": "d87ff84de0d56d68",
@@ -2142,7 +2142,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20260923/5725939.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "df4a611e904d481a",
@@ -2155,7 +2155,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7274.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "9c1dbedeecde5910",
@@ -2168,7 +2168,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20260923/5725779.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "b3c3d82624943d0d",
@@ -2181,7 +2181,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7273.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "2a53296d8c361216",
@@ -2194,7 +2194,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7260.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "bdedd0e200b3353b",
@@ -2207,7 +2207,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/bxggqt/20260923/5726119.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.330Z"
+      "capturedAt": "2026-11-23T07:56:47.006Z"
     },
     {
       "id": "db60fa59336cd793",
@@ -2220,7 +2220,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/bxggqt/20260713/5621392.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.330Z"
+      "capturedAt": "2026-11-23T07:56:47.006Z"
     },
     {
       "id": "97fd0f6ff51f4a63",
@@ -2233,7 +2233,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/bxggktbx/20260518/5534998.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.330Z"
+      "capturedAt": "2026-11-23T07:56:47.006Z"
     },
     {
       "id": "ecf108a2c3c17617",
@@ -2246,7 +2246,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20260922/5723755.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "0896299c1a34c25d",
@@ -2259,7 +2259,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20260916/5714558.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "a1dcfa035b23b85d",
@@ -2272,7 +2272,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcggzgg/20260914/5710400.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "3d7b6d33c35ebf98",
@@ -2285,7 +2285,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccj/7264.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "4ba82b65ea662f09",
@@ -2298,7 +2298,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzccj/7177.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "fb64a2930f262733",
@@ -2311,7 +2311,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgfbgg/20260911/5706600.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.008Z"
     },
     {
       "id": "06ac65dc720f4a37",
@@ -2324,7 +2324,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7258.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "4a2846ed1f62ece6",
@@ -2337,7 +2337,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzcht/7251.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "fea4f95050f023b0",
@@ -2350,7 +2350,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzbhxrgs/7253.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "c26a86082c5a2fe0",
@@ -2363,7 +2363,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzbhxrgs/7172.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "b14757e858c8ef9b",
@@ -2376,7 +2376,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/xmcgzbjj/20261120/5796966.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.007Z"
     },
     {
       "id": "5aad0d9758792629",
@@ -2389,7 +2389,7 @@
       "sourceType": "官方",
       "url": "http://www.bjsjs.gov.cn/sjsggzy/jyxxzbhxrgs/7376.jhtml",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.322Z"
+      "capturedAt": "2026-11-23T07:56:46.998Z"
     },
     {
       "id": "f9b0b0a6465de238",
@@ -2402,7 +2402,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxqtjygg/20260806/5658915.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.008Z"
     },
     {
       "id": "5288c32c3f4ec064",
@@ -2415,7 +2415,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/tzgg/20260731/5651736.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.325Z"
+      "capturedAt": "2026-11-23T07:56:47.002Z"
     },
     {
       "id": "e6343f8031006a15",
@@ -2428,7 +2428,7 @@
       "sourceType": "官方",
       "url": "https://ggzyfw.beijing.gov.cn/jyxxqtjyxx/20251106/5321798.html",
       "confidence": "auto",
-      "capturedAt": "2026-11-22T07:10:31.331Z"
+      "capturedAt": "2026-11-23T07:56:47.008Z"
     }
   ]
 }
